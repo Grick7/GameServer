@@ -1,0 +1,77 @@
+[
+{
+  "directory": "/home/grick/mygameserver/build",
+  "command": "/usr/bin/c++   -std=gnu++17 -o CMakeFiles/ProtoMessages.dir/protocol.pb.cc.o -c /home/grick/mygameserver/build/protocol.pb.cc",
+  "file": "/home/grick/mygameserver/build/protocol.pb.cc"
+},
+{
+  "directory": "/home/grick/mygameserver/build/src/client",
+  "command": "/usr/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -I/home/grick/mygameserver/include/server -I/home/grick/mygameserver/include -I/home/grick/mygameserver/include/client -I/home/grick/mygameserver/build -std=gnu++17 -o CMakeFiles/MyClientExec.dir/client.cc.o -c /home/grick/mygameserver/src/client/client.cc",
+  "file": "/home/grick/mygameserver/src/client/client.cc"
+},
+{
+  "directory": "/home/grick/mygameserver/build/src/server",
+  "command": "/usr/bin/c++ -DBOOST_ALL_NO_LIB -DLIBRDKAFKA_STATICLIB -I/usr/local/include/hiredis -I/home/grick/mygameserver/include/server -I/home/grick/mygameserver/include -I/home/grick/mygameserver/include/client -I/home/grick/mygameserver/build -isystem /home/grick/package/vcpkg/vcpkg/installed/x64-linux/include -std=gnu++17 -o CMakeFiles/MyServerExec.dir/main.cc.o -c /home/grick/mygameserver/src/server/main.cc",
+  "file": "/home/grick/mygameserver/src/server/main.cc"
+},
+{
+  "directory": "/home/grick/mygameserver/build/src/server",
+  "command": "/usr/bin/c++ -DBOOST_ALL_NO_LIB -DLIBRDKAFKA_STATICLIB -I/usr/local/include/hiredis -I/home/grick/mygameserver/include/server -I/home/grick/mygameserver/include -I/home/grick/mygameserver/include/client -I/home/grick/mygameserver/build -isystem /home/grick/package/vcpkg/vcpkg/installed/x64-linux/include -std=gnu++17 -o CMakeFiles/MyServerExec.dir/Session.cc.o -c /home/grick/mygameserver/src/server/Session.cc",
+  "file": "/home/grick/mygameserver/src/server/Session.cc"
+},
+{
+  "directory": "/home/grick/mygameserver/build/src/server",
+  "command": "/usr/bin/c++ -DBOOST_ALL_NO_LIB -DLIBRDKAFKA_STATICLIB -I/usr/local/include/hiredis -I/home/grick/mygameserver/include/server -I/home/grick/mygameserver/include -I/home/grick/mygameserver/include/client -I/home/grick/mygameserver/build -isystem /home/grick/package/vcpkg/vcpkg/installed/x64-linux/include -std=gnu++17 -o CMakeFiles/MyServerExec.dir/DB.cc.o -c /home/grick/mygameserver/src/server/DB.cc",
+  "file": "/home/grick/mygameserver/src/server/DB.cc"
+},
+{
+  "directory": "/home/grick/mygameserver/build/src/server",
+  "command": "/usr/bin/c++ -DBOOST_ALL_NO_LIB -DLIBRDKAFKA_STATICLIB -I/usr/local/include/hiredis -I/home/grick/mygameserver/include/server -I/home/grick/mygameserver/include -I/home/grick/mygameserver/include/client -I/home/grick/mygameserver/build -isystem /home/grick/package/vcpkg/vcpkg/installed/x64-linux/include -std=gnu++17 -o CMakeFiles/MyServerExec.dir/GameServer.cc.o -c /home/grick/mygameserver/src/server/GameServer.cc",
+  "file": "/home/grick/mygameserver/src/server/GameServer.cc"
+},
+{
+  "directory": "/home/grick/mygameserver/build/src/server",
+  "command": "/usr/bin/c++ -DBOOST_ALL_NO_LIB -DLIBRDKAFKA_STATICLIB -I/usr/local/include/hiredis -I/home/grick/mygameserver/include/server -I/home/grick/mygameserver/include -I/home/grick/mygameserver/include/client -I/home/grick/mygameserver/build -isystem /home/grick/package/vcpkg/vcpkg/installed/x64-linux/include -std=gnu++17 -o CMakeFiles/MyServerExec.dir/SessionManager.cc.o -c /home/grick/mygameserver/src/server/SessionManager.cc",
+  "file": "/home/grick/mygameserver/src/server/SessionManager.cc"
+},
+{
+  "directory": "/home/grick/mygameserver/build/src/server",
+  "command": "/usr/bin/c++ -DBOOST_ALL_NO_LIB -DLIBRDKAFKA_STATICLIB -I/usr/local/include/hiredis -I/home/grick/mygameserver/include/server -I/home/grick/mygameserver/include -I/home/grick/mygameserver/include/client -I/home/grick/mygameserver/build -isystem /home/grick/package/vcpkg/vcpkg/installed/x64-linux/include -std=gnu++17 -o CMakeFiles/MyServerExec.dir/MessageDispatcher.cc.o -c /home/grick/mygameserver/src/server/MessageDispatcher.cc",
+  "file": "/home/grick/mygameserver/src/server/MessageDispatcher.cc"
+},
+{
+  "directory": "/home/grick/mygameserver/build/src/server",
+  "command": "/usr/bin/c++ -DBOOST_ALL_NO_LIB -DLIBRDKAFKA_STATICLIB -I/usr/local/include/hiredis -I/home/grick/mygameserver/include/server -I/home/grick/mygameserver/include -I/home/grick/mygameserver/include/client -I/home/grick/mygameserver/build -isystem /home/grick/package/vcpkg/vcpkg/installed/x64-linux/include -std=gnu++17 -o CMakeFiles/MyServerExec.dir/Usermodel.cc.o -c /home/grick/mygameserver/src/server/Usermodel.cc",
+  "file": "/home/grick/mygameserver/src/server/Usermodel.cc"
+},
+{
+  "directory": "/home/grick/mygameserver/build/src/server",
+  "command": "/usr/bin/c++ -DBOOST_ALL_NO_LIB -DLIBRDKAFKA_STATICLIB -I/usr/local/include/hiredis -I/home/grick/mygameserver/include/server -I/home/grick/mygameserver/include -I/home/grick/mygameserver/include/client -I/home/grick/mygameserver/build -isystem /home/grick/package/vcpkg/vcpkg/installed/x64-linux/include -std=gnu++17 -o CMakeFiles/MyServerExec.dir/PlayerDataManager.cc.o -c /home/grick/mygameserver/src/server/PlayerDataManager.cc",
+  "file": "/home/grick/mygameserver/src/server/PlayerDataManager.cc"
+},
+{
+  "directory": "/home/grick/mygameserver/build/src/server",
+  "command": "/usr/bin/c++ -DBOOST_ALL_NO_LIB -DLIBRDKAFKA_STATICLIB -I/usr/local/include/hiredis -I/home/grick/mygameserver/include/server -I/home/grick/mygameserver/include -I/home/grick/mygameserver/include/client -I/home/grick/mygameserver/build -isystem /home/grick/package/vcpkg/vcpkg/installed/x64-linux/include -std=gnu++17 -o CMakeFiles/MyServerExec.dir/Room.cc.o -c /home/grick/mygameserver/src/server/Room.cc",
+  "file": "/home/grick/mygameserver/src/server/Room.cc"
+},
+{
+  "directory": "/home/grick/mygameserver/build/src/server",
+  "command": "/usr/bin/c++ -DBOOST_ALL_NO_LIB -DLIBRDKAFKA_STATICLIB -I/usr/local/include/hiredis -I/home/grick/mygameserver/include/server -I/home/grick/mygameserver/include -I/home/grick/mygameserver/include/client -I/home/grick/mygameserver/build -isystem /home/grick/package/vcpkg/vcpkg/installed/x64-linux/include -std=gnu++17 -o CMakeFiles/MyServerExec.dir/BattleRoom.cc.o -c /home/grick/mygameserver/src/server/BattleRoom.cc",
+  "file": "/home/grick/mygameserver/src/server/BattleRoom.cc"
+},
+{
+  "directory": "/home/grick/mygameserver/build/src/server",
+  "command": "/usr/bin/c++ -DBOOST_ALL_NO_LIB -DLIBRDKAFKA_STATICLIB -I/usr/local/include/hiredis -I/home/grick/mygameserver/include/server -I/home/grick/mygameserver/include -I/home/grick/mygameserver/include/client -I/home/grick/mygameserver/build -isystem /home/grick/package/vcpkg/vcpkg/installed/x64-linux/include -std=gnu++17 -o CMakeFiles/MyServerExec.dir/RoomManager.cc.o -c /home/grick/mygameserver/src/server/RoomManager.cc",
+  "file": "/home/grick/mygameserver/src/server/RoomManager.cc"
+},
+{
+  "directory": "/home/grick/mygameserver/build/src/server",
+  "command": "/usr/bin/c++ -DBOOST_ALL_NO_LIB -DLIBRDKAFKA_STATICLIB -I/usr/local/include/hiredis -I/home/grick/mygameserver/include/server -I/home/grick/mygameserver/include -I/home/grick/mygameserver/include/client -I/home/grick/mygameserver/build -isystem /home/grick/package/vcpkg/vcpkg/installed/x64-linux/include -std=gnu++17 -o CMakeFiles/MyServerExec.dir/UserDatamodel.cc.o -c /home/grick/mygameserver/src/server/UserDatamodel.cc",
+  "file": "/home/grick/mygameserver/src/server/UserDatamodel.cc"
+},
+{
+  "directory": "/home/grick/mygameserver/build/src/server",
+  "command": "/usr/bin/c++ -DBOOST_ALL_NO_LIB -DLIBRDKAFKA_STATICLIB -I/usr/local/include/hiredis -I/home/grick/mygameserver/include/server -I/home/grick/mygameserver/include -I/home/grick/mygameserver/include/client -I/home/grick/mygameserver/build -isystem /home/grick/package/vcpkg/vcpkg/installed/x64-linux/include -std=gnu++17 -o CMakeFiles/MyServerExec.dir/ThreadPool.cc.o -c /home/grick/mygameserver/src/server/ThreadPool.cc",
+  "file": "/home/grick/mygameserver/src/server/ThreadPool.cc"
+}
+]

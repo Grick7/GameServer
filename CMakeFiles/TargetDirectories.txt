@@ -1,0 +1,9 @@
+/home/grick/mygameserver/build/CMakeFiles/ProtoMessages.dir
+/home/grick/mygameserver/build/CMakeFiles/edit_cache.dir
+/home/grick/mygameserver/build/CMakeFiles/rebuild_cache.dir
+/home/grick/mygameserver/build/src/client/CMakeFiles/MyClientExec.dir
+/home/grick/mygameserver/build/src/client/CMakeFiles/edit_cache.dir
+/home/grick/mygameserver/build/src/client/CMakeFiles/rebuild_cache.dir
+/home/grick/mygameserver/build/src/server/CMakeFiles/MyServerExec.dir
+/home/grick/mygameserver/build/src/server/CMakeFiles/edit_cache.dir
+/home/grick/mygameserver/build/src/server/CMakeFiles/rebuild_cache.dir

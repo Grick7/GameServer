@@ -1,0 +1,135 @@
+syntax = "proto3";
+
+package msg;
+
+enum ChatChannel {
+    WORLD = 0;   // 世界聊天
+    PRIVATE = 1; // 私聊
+}
+
+message ChatMsg { //客户端发送服务端消息类型
+    ChatChannel channel = 1;
+    int32       to   = 2; // 私聊目标，世界聊天不用
+    string      text = 3;
+}
+
+message SChatMsg{//服务端给客户端发送的消息类型
+  ChatChannel channel= 1; 
+  int32 from = 2;
+  string text = 3;
+}
+// 查看玩家数据请求
+message ViewPlayerDataReq {
+    int32 uid = 1;  // 玩家ID
+}
+
+message PlayerAttr {  //返回的玩家数据
+    int32 uid = 1;
+    int32 level = 3;
+    int32 exp = 4;
+    int32 hp = 5;
+    int32 mp = 6;
+    int32 coin = 7;
+    float x = 8;
+    float y = 9;
+    float z = 10;
+}
+
+message RegisterReq { //注册请求
+    string name = 1;
+    string passwd = 2;
+}
+
+message RegisterResp {
+    bool ok = 1;
+    string reason = 2;
+    int32 uid = 3; // 分配给新注册用户的唯一ID
+}
+
+message LoginReq {  //登录请求
+  int32 uid = 1; 
+  string passwd = 2;
+}
+
+message LoginResp{//登录响应
+  bool ok = 1;
+  string reason = 2;
+}
+
+//玩家位置变化通知信息
+// 客户端位置更新请求
+message PositionUpdateReq // 使用 Req 后缀更清晰
+{
+    float x = 1;
+    float y = 2;
+    float z = 3;
+}
+
+// 玩家请求增加经验
+message AddExpReq {
+    int32 uid = 1;
+    int32 exp_add = 2; // 增加的经验值
+}
+
+// 服务器返回等级与经验
+message AddExpRsp {
+    int32 uid = 1;
+    int32 new_level = 2;
+    int32 new_exp = 3;
+    bool level_up = 4; // 是否升级
+    bool success = 5;
+}
+
+// 玩家进入房间请求（客户端 -> 服务端）
+message EnterRoomReq {
+  int32 uid = 1;
+  int32 roomid = 2;
+}
+
+// 进入房间响应（服务端 -> 客户端）
+message EnterRoomAck {
+  int32 roomid = 1;
+  bool ok = 2;
+  string reason = 3;
+}
+// 玩家准备请求（客户端 -> 服务端）
+message ReadyReq {
+  int32 uid = 1;
+  int32 roomid = 2;
+  bool ready = 3;
+}
+// 准备状态广播（服务端 -> 房间内所有客户端）
+message ReadyAck {
+  int32 uid = 1;
+  int32 roomid = 2;
+  bool ready = 3;
+}
+// 玩家在战斗中的动作（客户端 -> 服务端）
+// 例如：使用技能、目标id 等
+message BattleAction {
+  int32 uid = 1;
+  int32 roomid = 2;
+  int32 skillid = 3;
+  int32 target = 4; // 目标 uid
+  // 可以按需扩展：位置、方向等
+}
+// 服务端广播的战斗同步包（服务端 -> 房间内所有客户端）
+message BattleState {
+  int32 uid = 1;
+  int32 hp = 2;
+  int32 mp = 3;
+}
+message BattleSync {
+  repeated BattleState states = 1;
+  int64 timestamp = 2; // ms 时间戳（可选）
+}
+// 服务端通知战斗开始（服务端 -> 房间内所有客户端）
+message BattleStart {
+  int32 roomid = 1;
+  repeated int32 players = 2; // 参与者 uid 列表
+}
+// 服务端通知战斗结束
+message BattleEnd {
+  int32 roomid = 1;
+  int32 winner = 2; // 胜者 uid，-1 表示平局
+}
