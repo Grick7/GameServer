@@ -1,8 +1,8 @@
 src/server/CMakeFiles/MyServerExec.dir/GameServer.cc.o: \
- /home/grick/mygameserver/src/server/GameServer.cc \
+ /home/grick/mygameserver/GameServer/src/server/GameServer.cc \
  /usr/include/stdc-predef.h \
- /home/grick/mygameserver/include/server/GameServer.h \
- /home/grick/mygameserver/include/server/Session.h \
+ /home/grick/mygameserver/GameServer/include/server/GameServer.h \
+ /home/grick/mygameserver/GameServer/include/server/Session.h \
  /usr/include/boost/asio.hpp \
  /usr/include/boost/asio/associated_allocator.hpp \
  /usr/include/boost/asio/detail/config.hpp /usr/include/boost/config.hpp \
@@ -1115,6 +1115,6 @@ src/server/CMakeFiles/MyServerExec.dir/GameServer.cc.o: \
  /usr/include/boost/asio/impl/write_at.hpp /usr/include/c++/11/iostream \
  /usr/include/c++/11/deque /usr/include/c++/11/bits/stl_deque.h \
  /usr/include/c++/11/bits/deque.tcc \
- /home/grick/mygameserver/include/server/ThreadPool.h \
+ /home/grick/mygameserver/GameServer/include/server/ThreadPool.h \
  /usr/include/c++/11/queue /usr/include/c++/11/bits/stl_queue.h \
  /usr/include/c++/11/thread /usr/include/c++/11/bits/this_thread_sleep.h

@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = -DBOOST_ALL_NO_LIB -DLIBRDKAFKA_STATICLIB
 
-CXX_INCLUDES = -I/usr/local/include/hiredis -I/home/grick/mygameserver/include/server -I/home/grick/mygameserver/include -I/home/grick/mygameserver/include/client -I/home/grick/mygameserver/build -isystem /home/grick/package/vcpkg/vcpkg/installed/x64-linux/include
+CXX_INCLUDES = -I/usr/local/include/hiredis -I/home/grick/mygameserver/GameServer/include/server -I/home/grick/mygameserver/GameServer/include -I/home/grick/mygameserver/GameServer/include/client -I/home/grick/mygameserver/GameServer/build -isystem /home/grick/package/vcpkg/vcpkg/installed/x64-linux/include
 
 CXX_FLAGS = -std=gnu++17
 

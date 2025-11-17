@@ -1,7 +1,7 @@
 src/server/CMakeFiles/MyServerExec.dir/Usermodel.cc.o: \
- /home/grick/mygameserver/src/server/Usermodel.cc \
+ /home/grick/mygameserver/GameServer/src/server/Usermodel.cc \
  /usr/include/stdc-predef.h \
- /home/grick/mygameserver/include/server/Usermodel.h \
+ /home/grick/mygameserver/GameServer/include/server/Usermodel.h \
  /usr/include/c++/11/string \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
@@ -151,8 +151,9 @@ src/server/CMakeFiles/MyServerExec.dir/Usermodel.cc.o: \
  /usr/include/c++/11/bits/basic_ios.tcc \
  /usr/include/c++/11/bits/ostream.tcc /usr/include/c++/11/istream \
  /usr/include/c++/11/bits/istream.tcc \
- /home/grick/mygameserver/include/server/GameUser.h \
- /home/grick/mygameserver/include/server/DB.h /usr/include/mysql/mysql.h \
+ /home/grick/mygameserver/GameServer/include/server/GameUser.h \
+ /home/grick/mygameserver/GameServer/include/server/DB.h \
+ /usr/include/mysql/mysql.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdbool.h \
  /usr/include/mysql/field_types.h /usr/include/mysql/my_list.h \
  /usr/include/mysql/mysql_com.h /usr/include/mysql/my_command.h \

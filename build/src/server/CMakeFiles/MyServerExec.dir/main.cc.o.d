@@ -1,7 +1,8 @@
 src/server/CMakeFiles/MyServerExec.dir/main.cc.o: \
- /home/grick/mygameserver/src/server/main.cc /usr/include/stdc-predef.h \
- /home/grick/mygameserver/include/server/GameServer.h \
- /home/grick/mygameserver/include/server/Session.h \
+ /home/grick/mygameserver/GameServer/src/server/main.cc \
+ /usr/include/stdc-predef.h \
+ /home/grick/mygameserver/GameServer/include/server/GameServer.h \
+ /home/grick/mygameserver/GameServer/include/server/Session.h \
  /usr/include/boost/asio.hpp \
  /usr/include/boost/asio/associated_allocator.hpp \
  /usr/include/boost/asio/detail/config.hpp /usr/include/boost/config.hpp \
@@ -1114,12 +1115,12 @@ src/server/CMakeFiles/MyServerExec.dir/main.cc.o: \
  /usr/include/boost/asio/impl/write_at.hpp /usr/include/c++/11/iostream \
  /usr/include/c++/11/deque /usr/include/c++/11/bits/stl_deque.h \
  /usr/include/c++/11/bits/deque.tcc \
- /home/grick/mygameserver/include/server/ThreadPool.h \
+ /home/grick/mygameserver/GameServer/include/server/ThreadPool.h \
  /usr/include/c++/11/queue /usr/include/c++/11/bits/stl_queue.h \
  /usr/include/c++/11/thread /usr/include/c++/11/bits/this_thread_sleep.h \
- /home/grick/mygameserver/include/server/MessageDispatcher.h \
- /home/grick/mygameserver/include/server/SessionManager.h \
- /home/grick/mygameserver/build/protocol.pb.h \
+ /home/grick/mygameserver/GameServer/include/server/MessageDispatcher.h \
+ /home/grick/mygameserver/GameServer/include/server/SessionManager.h \
+ /home/grick/mygameserver/GameServer/build/protocol.pb.h \
  /usr/local/include/google/protobuf/port_def.inc \
  /usr/local/include/google/protobuf/port_undef.inc \
  /usr/local/include/google/protobuf/io/coded_stream.h \
@@ -1172,7 +1173,8 @@ src/server/CMakeFiles/MyServerExec.dir/main.cc.o: \
  /usr/local/include/google/protobuf/stubs/stl_util.h \
  /usr/local/include/google/protobuf/message.h \
  /usr/local/include/google/protobuf/extension_set.h \
- /home/grick/mygameserver/include/server/DB.h /usr/include/mysql/mysql.h \
+ /home/grick/mygameserver/GameServer/include/server/DB.h \
+ /usr/include/mysql/mysql.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdbool.h \
  /usr/include/mysql/field_types.h /usr/include/mysql/my_list.h \
  /usr/include/mysql/mysql_com.h /usr/include/mysql/my_command.h \
@@ -1182,11 +1184,11 @@ src/server/CMakeFiles/MyServerExec.dir/main.cc.o: \
  /usr/include/mysql/mysql/plugin_auth_common.h \
  /usr/include/mysql/mysql_version.h /usr/include/mysql/mysql_time.h \
  /usr/include/mysql/errmsg.h \
- /home/grick/mygameserver/include/server/GameUser.h \
- /home/grick/mygameserver/include/server/Usermodel.h \
- /home/grick/mygameserver/include/public.h \
- /home/grick/mygameserver/include/server/PlayerDataManager.h \
- /home/grick/mygameserver/include/server/UserDatamodel.h \
+ /home/grick/mygameserver/GameServer/include/server/GameUser.h \
+ /home/grick/mygameserver/GameServer/include/server/Usermodel.h \
+ /home/grick/mygameserver/GameServer/include/public.h \
+ /home/grick/mygameserver/GameServer/include/server/PlayerDataManager.h \
+ /home/grick/mygameserver/GameServer/include/server/UserDatamodel.h \
  /usr/local/include/sw/redis++/redis++.h \
  /usr/local/include/sw/redis++/redis.h \
  /usr/local/include/sw/redis++/connection_pool.h \
@@ -1380,6 +1382,6 @@ src/server/CMakeFiles/MyServerExec.dir/main.cc.o: \
  /home/grick/package/vcpkg/vcpkg/installed/x64-linux/include/cppkafka/utils/poll_interface.h \
  /home/grick/package/vcpkg/vcpkg/installed/x64-linux/include/cppkafka/utils/roundrobin_poll_strategy.h \
  /home/grick/package/vcpkg/vcpkg/installed/x64-linux/include/cppkafka/utils/poll_strategy_base.h \
- /home/grick/mygameserver/include/server/RoomManager.h \
- /home/grick/mygameserver/include/server/Room.h \
- /home/grick/mygameserver/include/server/BattleRoom.h
+ /home/grick/mygameserver/GameServer/include/server/RoomManager.h \
+ /home/grick/mygameserver/GameServer/include/server/Room.h \
+ /home/grick/mygameserver/GameServer/include/server/BattleRoom.h

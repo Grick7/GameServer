@@ -1,8 +1,9 @@
 src/server/CMakeFiles/MyServerExec.dir/PlayerDataManager.cc.o: \
- /home/grick/mygameserver/src/server/PlayerDataManager.cc \
+ /home/grick/mygameserver/GameServer/src/server/PlayerDataManager.cc \
  /usr/include/stdc-predef.h \
- /home/grick/mygameserver/include/server/PlayerDataManager.h \
- /home/grick/mygameserver/build/protocol.pb.h /usr/include/c++/11/limits \
+ /home/grick/mygameserver/GameServer/include/server/PlayerDataManager.h \
+ /home/grick/mygameserver/GameServer/build/protocol.pb.h \
+ /usr/include/c++/11/limits \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -259,9 +260,10 @@ src/server/CMakeFiles/MyServerExec.dir/PlayerDataManager.cc.o: \
  /usr/local/include/google/protobuf/message.h \
  /usr/local/include/google/protobuf/extension_set.h \
  /usr/include/c++/11/cassert \
- /home/grick/mygameserver/include/server/GameUser.h \
- /home/grick/mygameserver/include/server/UserDatamodel.h \
- /home/grick/mygameserver/include/server/DB.h /usr/include/mysql/mysql.h \
+ /home/grick/mygameserver/GameServer/include/server/GameUser.h \
+ /home/grick/mygameserver/GameServer/include/server/UserDatamodel.h \
+ /home/grick/mygameserver/GameServer/include/server/DB.h \
+ /usr/include/mysql/mysql.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdbool.h \
  /usr/include/mysql/field_types.h /usr/include/mysql/my_list.h \
  /usr/include/mysql/mysql_com.h /usr/include/mysql/my_command.h \

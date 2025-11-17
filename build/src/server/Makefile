@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/grick/mygameserver
+CMAKE_SOURCE_DIR = /home/grick/mygameserver/GameServer
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/grick/mygameserver/build
+CMAKE_BINARY_DIR = /home/grick/mygameserver/GameServer/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/grick/mygameserver/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/grick/mygameserver/build/CMakeFiles /home/grick/mygameserver/build/src/server//CMakeFiles/progress.marks
-	cd /home/grick/mygameserver/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/server/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/grick/mygameserver/build/CMakeFiles 0
+	cd /home/grick/mygameserver/GameServer/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/grick/mygameserver/GameServer/build/CMakeFiles /home/grick/mygameserver/GameServer/build/src/server//CMakeFiles/progress.marks
+	cd /home/grick/mygameserver/GameServer/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/server/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/grick/mygameserver/GameServer/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/grick/mygameserver/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/server/clean
+	cd /home/grick/mygameserver/GameServer/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/server/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,22 +103,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/grick/mygameserver/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/server/preinstall
+	cd /home/grick/mygameserver/GameServer/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/server/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/grick/mygameserver/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/server/preinstall
+	cd /home/grick/mygameserver/GameServer/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/server/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/grick/mygameserver/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/grick/mygameserver/GameServer/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 src/server/CMakeFiles/MyServerExec.dir/rule:
-	cd /home/grick/mygameserver/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/server/CMakeFiles/MyServerExec.dir/rule
+	cd /home/grick/mygameserver/GameServer/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/server/CMakeFiles/MyServerExec.dir/rule
 .PHONY : src/server/CMakeFiles/MyServerExec.dir/rule
 
 # Convenience name for target.
@@ -127,7 +127,7 @@ MyServerExec: src/server/CMakeFiles/MyServerExec.dir/rule
 
 # fast build rule for target.
 MyServerExec/fast:
-	cd /home/grick/mygameserver/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/MyServerExec.dir/build.make src/server/CMakeFiles/MyServerExec.dir/build
+	cd /home/grick/mygameserver/GameServer/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/MyServerExec.dir/build.make src/server/CMakeFiles/MyServerExec.dir/build
 .PHONY : MyServerExec/fast
 
 BattleRoom.o: BattleRoom.cc.o
@@ -135,7 +135,7 @@ BattleRoom.o: BattleRoom.cc.o
 
 # target to build an object file
 BattleRoom.cc.o:
-	cd /home/grick/mygameserver/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/MyServerExec.dir/build.make src/server/CMakeFiles/MyServerExec.dir/BattleRoom.cc.o
+	cd /home/grick/mygameserver/GameServer/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/MyServerExec.dir/build.make src/server/CMakeFiles/MyServerExec.dir/BattleRoom.cc.o
 .PHONY : BattleRoom.cc.o
 
 BattleRoom.i: BattleRoom.cc.i
@@ -143,7 +143,7 @@ BattleRoom.i: BattleRoom.cc.i
 
 # target to preprocess a source file
 BattleRoom.cc.i:
-	cd /home/grick/mygameserver/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/MyServerExec.dir/build.make src/server/CMakeFiles/MyServerExec.dir/BattleRoom.cc.i
+	cd /home/grick/mygameserver/GameServer/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/MyServerExec.dir/build.make src/server/CMakeFiles/MyServerExec.dir/BattleRoom.cc.i
 .PHONY : BattleRoom.cc.i
 
 BattleRoom.s: BattleRoom.cc.s
@@ -151,7 +151,7 @@ BattleRoom.s: BattleRoom.cc.s
 
 # target to generate assembly for a file
 BattleRoom.cc.s:
-	cd /home/grick/mygameserver/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/MyServerExec.dir/build.make src/server/CMakeFiles/MyServerExec.dir/BattleRoom.cc.s
+	cd /home/grick/mygameserver/GameServer/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/MyServerExec.dir/build.make src/server/CMakeFiles/MyServerExec.dir/BattleRoom.cc.s
 .PHONY : BattleRoom.cc.s
 
 DB.o: DB.cc.o
@@ -159,7 +159,7 @@ DB.o: DB.cc.o
 
 # target to build an object file
 DB.cc.o:
-	cd /home/grick/mygameserver/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/MyServerExec.dir/build.make src/server/CMakeFiles/MyServerExec.dir/DB.cc.o
+	cd /home/grick/mygameserver/GameServer/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/MyServerExec.dir/build.make src/server/CMakeFiles/MyServerExec.dir/DB.cc.o
 .PHONY : DB.cc.o
 
 DB.i: DB.cc.i
@@ -167,7 +167,7 @@ DB.i: DB.cc.i
 
 # target to preprocess a source file
 DB.cc.i:
-	cd /home/grick/mygameserver/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/MyServerExec.dir/build.make src/server/CMakeFiles/MyServerExec.dir/DB.cc.i
+	cd /home/grick/mygameserver/GameServer/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/MyServerExec.dir/build.make src/server/CMakeFiles/MyServerExec.dir/DB.cc.i
 .PHONY : DB.cc.i
 
 DB.s: DB.cc.s
@@ -175,7 +175,7 @@ DB.s: DB.cc.s
 
 # target to generate assembly for a file
 DB.cc.s:
-	cd /home/grick/mygameserver/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/MyServerExec.dir/build.make src/server/CMakeFiles/MyServerExec.dir/DB.cc.s
+	cd /home/grick/mygameserver/GameServer/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/MyServerExec.dir/build.make src/server/CMakeFiles/MyServerExec.dir/DB.cc.s
 .PHONY : DB.cc.s
 
 GameServer.o: GameServer.cc.o
@@ -183,7 +183,7 @@ GameServer.o: GameServer.cc.o
 
 # target to build an object file
 GameServer.cc.o:
-	cd /home/grick/mygameserver/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/MyServerExec.dir/build.make src/server/CMakeFiles/MyServerExec.dir/GameServer.cc.o
+	cd /home/grick/mygameserver/GameServer/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/MyServerExec.dir/build.make src/server/CMakeFiles/MyServerExec.dir/GameServer.cc.o
 .PHONY : GameServer.cc.o
 
 GameServer.i: GameServer.cc.i
@@ -191,7 +191,7 @@ GameServer.i: GameServer.cc.i
 
 # target to preprocess a source file
 GameServer.cc.i:
-	cd /home/grick/mygameserver/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/MyServerExec.dir/build.make src/server/CMakeFiles/MyServerExec.dir/GameServer.cc.i
+	cd /home/grick/mygameserver/GameServer/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/MyServerExec.dir/build.make src/server/CMakeFiles/MyServerExec.dir/GameServer.cc.i
 .PHONY : GameServer.cc.i
 
 GameServer.s: GameServer.cc.s
@@ -199,7 +199,7 @@ GameServer.s: GameServer.cc.s
 
 # target to generate assembly for a file
 GameServer.cc.s:
-	cd /home/grick/mygameserver/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/MyServerExec.dir/build.make src/server/CMakeFiles/MyServerExec.dir/GameServer.cc.s
+	cd /home/grick/mygameserver/GameServer/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/MyServerExec.dir/build.make src/server/CMakeFiles/MyServerExec.dir/GameServer.cc.s
 .PHONY : GameServer.cc.s
 
 MessageDispatcher.o: MessageDispatcher.cc.o
@@ -207,7 +207,7 @@ MessageDispatcher.o: MessageDispatcher.cc.o
 
 # target to build an object file
 MessageDispatcher.cc.o:
-	cd /home/grick/mygameserver/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/MyServerExec.dir/build.make src/server/CMakeFiles/MyServerExec.dir/MessageDispatcher.cc.o
+	cd /home/grick/mygameserver/GameServer/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/MyServerExec.dir/build.make src/server/CMakeFiles/MyServerExec.dir/MessageDispatcher.cc.o
 .PHONY : MessageDispatcher.cc.o
 
 MessageDispatcher.i: MessageDispatcher.cc.i
@@ -215,7 +215,7 @@ MessageDispatcher.i: MessageDispatcher.cc.i
 
 # target to preprocess a source file
 MessageDispatcher.cc.i:
-	cd /home/grick/mygameserver/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/MyServerExec.dir/build.make src/server/CMakeFiles/MyServerExec.dir/MessageDispatcher.cc.i
+	cd /home/grick/mygameserver/GameServer/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/MyServerExec.dir/build.make src/server/CMakeFiles/MyServerExec.dir/MessageDispatcher.cc.i
 .PHONY : MessageDispatcher.cc.i
 
 MessageDispatcher.s: MessageDispatcher.cc.s
@@ -223,7 +223,7 @@ MessageDispatcher.s: MessageDispatcher.cc.s
 
 # target to generate assembly for a file
 MessageDispatcher.cc.s:
-	cd /home/grick/mygameserver/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/MyServerExec.dir/build.make src/server/CMakeFiles/MyServerExec.dir/MessageDispatcher.cc.s
+	cd /home/grick/mygameserver/GameServer/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/MyServerExec.dir/build.make src/server/CMakeFiles/MyServerExec.dir/MessageDispatcher.cc.s
 .PHONY : MessageDispatcher.cc.s
 
 PlayerDataManager.o: PlayerDataManager.cc.o
@@ -231,7 +231,7 @@ PlayerDataManager.o: PlayerDataManager.cc.o
 
 # target to build an object file
 PlayerDataManager.cc.o:
-	cd /home/grick/mygameserver/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/MyServerExec.dir/build.make src/server/CMakeFiles/MyServerExec.dir/PlayerDataManager.cc.o
+	cd /home/grick/mygameserver/GameServer/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/MyServerExec.dir/build.make src/server/CMakeFiles/MyServerExec.dir/PlayerDataManager.cc.o
 .PHONY : PlayerDataManager.cc.o
 
 PlayerDataManager.i: PlayerDataManager.cc.i
@@ -239,7 +239,7 @@ PlayerDataManager.i: PlayerDataManager.cc.i
 
 # target to preprocess a source file
 PlayerDataManager.cc.i:
-	cd /home/grick/mygameserver/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/MyServerExec.dir/build.make src/server/CMakeFiles/MyServerExec.dir/PlayerDataManager.cc.i
+	cd /home/grick/mygameserver/GameServer/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/MyServerExec.dir/build.make src/server/CMakeFiles/MyServerExec.dir/PlayerDataManager.cc.i
 .PHONY : PlayerDataManager.cc.i
 
 PlayerDataManager.s: PlayerDataManager.cc.s
@@ -247,7 +247,7 @@ PlayerDataManager.s: PlayerDataManager.cc.s
 
 # target to generate assembly for a file
 PlayerDataManager.cc.s:
-	cd /home/grick/mygameserver/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/MyServerExec.dir/build.make src/server/CMakeFiles/MyServerExec.dir/PlayerDataManager.cc.s
+	cd /home/grick/mygameserver/GameServer/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/MyServerExec.dir/build.make src/server/CMakeFiles/MyServerExec.dir/PlayerDataManager.cc.s
 .PHONY : PlayerDataManager.cc.s
 
 Room.o: Room.cc.o
@@ -255,7 +255,7 @@ Room.o: Room.cc.o
 
 # target to build an object file
 Room.cc.o:
-	cd /home/grick/mygameserver/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/MyServerExec.dir/build.make src/server/CMakeFiles/MyServerExec.dir/Room.cc.o
+	cd /home/grick/mygameserver/GameServer/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/MyServerExec.dir/build.make src/server/CMakeFiles/MyServerExec.dir/Room.cc.o
 .PHONY : Room.cc.o
 
 Room.i: Room.cc.i
@@ -263,7 +263,7 @@ Room.i: Room.cc.i
 
 # target to preprocess a source file
 Room.cc.i:
-	cd /home/grick/mygameserver/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/MyServerExec.dir/build.make src/server/CMakeFiles/MyServerExec.dir/Room.cc.i
+	cd /home/grick/mygameserver/GameServer/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/MyServerExec.dir/build.make src/server/CMakeFiles/MyServerExec.dir/Room.cc.i
 .PHONY : Room.cc.i
 
 Room.s: Room.cc.s
@@ -271,7 +271,7 @@ Room.s: Room.cc.s
 
 # target to generate assembly for a file
 Room.cc.s:
-	cd /home/grick/mygameserver/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/MyServerExec.dir/build.make src/server/CMakeFiles/MyServerExec.dir/Room.cc.s
+	cd /home/grick/mygameserver/GameServer/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/MyServerExec.dir/build.make src/server/CMakeFiles/MyServerExec.dir/Room.cc.s
 .PHONY : Room.cc.s
 
 RoomManager.o: RoomManager.cc.o
@@ -279,7 +279,7 @@ RoomManager.o: RoomManager.cc.o
 
 # target to build an object file
 RoomManager.cc.o:
-	cd /home/grick/mygameserver/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/MyServerExec.dir/build.make src/server/CMakeFiles/MyServerExec.dir/RoomManager.cc.o
+	cd /home/grick/mygameserver/GameServer/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/MyServerExec.dir/build.make src/server/CMakeFiles/MyServerExec.dir/RoomManager.cc.o
 .PHONY : RoomManager.cc.o
 
 RoomManager.i: RoomManager.cc.i
@@ -287,7 +287,7 @@ RoomManager.i: RoomManager.cc.i
 
 # target to preprocess a source file
 RoomManager.cc.i:
-	cd /home/grick/mygameserver/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/MyServerExec.dir/build.make src/server/CMakeFiles/MyServerExec.dir/RoomManager.cc.i
+	cd /home/grick/mygameserver/GameServer/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/MyServerExec.dir/build.make src/server/CMakeFiles/MyServerExec.dir/RoomManager.cc.i
 .PHONY : RoomManager.cc.i
 
 RoomManager.s: RoomManager.cc.s
@@ -295,7 +295,7 @@ RoomManager.s: RoomManager.cc.s
 
 # target to generate assembly for a file
 RoomManager.cc.s:
-	cd /home/grick/mygameserver/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/MyServerExec.dir/build.make src/server/CMakeFiles/MyServerExec.dir/RoomManager.cc.s
+	cd /home/grick/mygameserver/GameServer/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/MyServerExec.dir/build.make src/server/CMakeFiles/MyServerExec.dir/RoomManager.cc.s
 .PHONY : RoomManager.cc.s
 
 Session.o: Session.cc.o
@@ -303,7 +303,7 @@ Session.o: Session.cc.o
 
 # target to build an object file
 Session.cc.o:
-	cd /home/grick/mygameserver/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/MyServerExec.dir/build.make src/server/CMakeFiles/MyServerExec.dir/Session.cc.o
+	cd /home/grick/mygameserver/GameServer/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/MyServerExec.dir/build.make src/server/CMakeFiles/MyServerExec.dir/Session.cc.o
 .PHONY : Session.cc.o
 
 Session.i: Session.cc.i
@@ -311,7 +311,7 @@ Session.i: Session.cc.i
 
 # target to preprocess a source file
 Session.cc.i:
-	cd /home/grick/mygameserver/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/MyServerExec.dir/build.make src/server/CMakeFiles/MyServerExec.dir/Session.cc.i
+	cd /home/grick/mygameserver/GameServer/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/MyServerExec.dir/build.make src/server/CMakeFiles/MyServerExec.dir/Session.cc.i
 .PHONY : Session.cc.i
 
 Session.s: Session.cc.s
@@ -319,7 +319,7 @@ Session.s: Session.cc.s
 
 # target to generate assembly for a file
 Session.cc.s:
-	cd /home/grick/mygameserver/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/MyServerExec.dir/build.make src/server/CMakeFiles/MyServerExec.dir/Session.cc.s
+	cd /home/grick/mygameserver/GameServer/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/MyServerExec.dir/build.make src/server/CMakeFiles/MyServerExec.dir/Session.cc.s
 .PHONY : Session.cc.s
 
 SessionManager.o: SessionManager.cc.o
@@ -327,7 +327,7 @@ SessionManager.o: SessionManager.cc.o
 
 # target to build an object file
 SessionManager.cc.o:
-	cd /home/grick/mygameserver/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/MyServerExec.dir/build.make src/server/CMakeFiles/MyServerExec.dir/SessionManager.cc.o
+	cd /home/grick/mygameserver/GameServer/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/MyServerExec.dir/build.make src/server/CMakeFiles/MyServerExec.dir/SessionManager.cc.o
 .PHONY : SessionManager.cc.o
 
 SessionManager.i: SessionManager.cc.i
@@ -335,7 +335,7 @@ SessionManager.i: SessionManager.cc.i
 
 # target to preprocess a source file
 SessionManager.cc.i:
-	cd /home/grick/mygameserver/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/MyServerExec.dir/build.make src/server/CMakeFiles/MyServerExec.dir/SessionManager.cc.i
+	cd /home/grick/mygameserver/GameServer/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/MyServerExec.dir/build.make src/server/CMakeFiles/MyServerExec.dir/SessionManager.cc.i
 .PHONY : SessionManager.cc.i
 
 SessionManager.s: SessionManager.cc.s
@@ -343,7 +343,7 @@ SessionManager.s: SessionManager.cc.s
 
 # target to generate assembly for a file
 SessionManager.cc.s:
-	cd /home/grick/mygameserver/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/MyServerExec.dir/build.make src/server/CMakeFiles/MyServerExec.dir/SessionManager.cc.s
+	cd /home/grick/mygameserver/GameServer/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/MyServerExec.dir/build.make src/server/CMakeFiles/MyServerExec.dir/SessionManager.cc.s
 .PHONY : SessionManager.cc.s
 
 ThreadPool.o: ThreadPool.cc.o
@@ -351,7 +351,7 @@ ThreadPool.o: ThreadPool.cc.o
 
 # target to build an object file
 ThreadPool.cc.o:
-	cd /home/grick/mygameserver/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/MyServerExec.dir/build.make src/server/CMakeFiles/MyServerExec.dir/ThreadPool.cc.o
+	cd /home/grick/mygameserver/GameServer/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/MyServerExec.dir/build.make src/server/CMakeFiles/MyServerExec.dir/ThreadPool.cc.o
 .PHONY : ThreadPool.cc.o
 
 ThreadPool.i: ThreadPool.cc.i
@@ -359,7 +359,7 @@ ThreadPool.i: ThreadPool.cc.i
 
 # target to preprocess a source file
 ThreadPool.cc.i:
-	cd /home/grick/mygameserver/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/MyServerExec.dir/build.make src/server/CMakeFiles/MyServerExec.dir/ThreadPool.cc.i
+	cd /home/grick/mygameserver/GameServer/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/MyServerExec.dir/build.make src/server/CMakeFiles/MyServerExec.dir/ThreadPool.cc.i
 .PHONY : ThreadPool.cc.i
 
 ThreadPool.s: ThreadPool.cc.s
@@ -367,7 +367,7 @@ ThreadPool.s: ThreadPool.cc.s
 
 # target to generate assembly for a file
 ThreadPool.cc.s:
-	cd /home/grick/mygameserver/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/MyServerExec.dir/build.make src/server/CMakeFiles/MyServerExec.dir/ThreadPool.cc.s
+	cd /home/grick/mygameserver/GameServer/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/MyServerExec.dir/build.make src/server/CMakeFiles/MyServerExec.dir/ThreadPool.cc.s
 .PHONY : ThreadPool.cc.s
 
 UserDatamodel.o: UserDatamodel.cc.o
@@ -375,7 +375,7 @@ UserDatamodel.o: UserDatamodel.cc.o
 
 # target to build an object file
 UserDatamodel.cc.o:
-	cd /home/grick/mygameserver/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/MyServerExec.dir/build.make src/server/CMakeFiles/MyServerExec.dir/UserDatamodel.cc.o
+	cd /home/grick/mygameserver/GameServer/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/MyServerExec.dir/build.make src/server/CMakeFiles/MyServerExec.dir/UserDatamodel.cc.o
 .PHONY : UserDatamodel.cc.o
 
 UserDatamodel.i: UserDatamodel.cc.i
@@ -383,7 +383,7 @@ UserDatamodel.i: UserDatamodel.cc.i
 
 # target to preprocess a source file
 UserDatamodel.cc.i:
-	cd /home/grick/mygameserver/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/MyServerExec.dir/build.make src/server/CMakeFiles/MyServerExec.dir/UserDatamodel.cc.i
+	cd /home/grick/mygameserver/GameServer/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/MyServerExec.dir/build.make src/server/CMakeFiles/MyServerExec.dir/UserDatamodel.cc.i
 .PHONY : UserDatamodel.cc.i
 
 UserDatamodel.s: UserDatamodel.cc.s
@@ -391,7 +391,7 @@ UserDatamodel.s: UserDatamodel.cc.s
 
 # target to generate assembly for a file
 UserDatamodel.cc.s:
-	cd /home/grick/mygameserver/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/MyServerExec.dir/build.make src/server/CMakeFiles/MyServerExec.dir/UserDatamodel.cc.s
+	cd /home/grick/mygameserver/GameServer/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/MyServerExec.dir/build.make src/server/CMakeFiles/MyServerExec.dir/UserDatamodel.cc.s
 .PHONY : UserDatamodel.cc.s
 
 Usermodel.o: Usermodel.cc.o
@@ -399,7 +399,7 @@ Usermodel.o: Usermodel.cc.o
 
 # target to build an object file
 Usermodel.cc.o:
-	cd /home/grick/mygameserver/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/MyServerExec.dir/build.make src/server/CMakeFiles/MyServerExec.dir/Usermodel.cc.o
+	cd /home/grick/mygameserver/GameServer/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/MyServerExec.dir/build.make src/server/CMakeFiles/MyServerExec.dir/Usermodel.cc.o
 .PHONY : Usermodel.cc.o
 
 Usermodel.i: Usermodel.cc.i
@@ -407,7 +407,7 @@ Usermodel.i: Usermodel.cc.i
 
 # target to preprocess a source file
 Usermodel.cc.i:
-	cd /home/grick/mygameserver/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/MyServerExec.dir/build.make src/server/CMakeFiles/MyServerExec.dir/Usermodel.cc.i
+	cd /home/grick/mygameserver/GameServer/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/MyServerExec.dir/build.make src/server/CMakeFiles/MyServerExec.dir/Usermodel.cc.i
 .PHONY : Usermodel.cc.i
 
 Usermodel.s: Usermodel.cc.s
@@ -415,7 +415,7 @@ Usermodel.s: Usermodel.cc.s
 
 # target to generate assembly for a file
 Usermodel.cc.s:
-	cd /home/grick/mygameserver/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/MyServerExec.dir/build.make src/server/CMakeFiles/MyServerExec.dir/Usermodel.cc.s
+	cd /home/grick/mygameserver/GameServer/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/MyServerExec.dir/build.make src/server/CMakeFiles/MyServerExec.dir/Usermodel.cc.s
 .PHONY : Usermodel.cc.s
 
 main.o: main.cc.o
@@ -423,7 +423,7 @@ main.o: main.cc.o
 
 # target to build an object file
 main.cc.o:
-	cd /home/grick/mygameserver/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/MyServerExec.dir/build.make src/server/CMakeFiles/MyServerExec.dir/main.cc.o
+	cd /home/grick/mygameserver/GameServer/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/MyServerExec.dir/build.make src/server/CMakeFiles/MyServerExec.dir/main.cc.o
 .PHONY : main.cc.o
 
 main.i: main.cc.i
@@ -431,7 +431,7 @@ main.i: main.cc.i
 
 # target to preprocess a source file
 main.cc.i:
-	cd /home/grick/mygameserver/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/MyServerExec.dir/build.make src/server/CMakeFiles/MyServerExec.dir/main.cc.i
+	cd /home/grick/mygameserver/GameServer/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/MyServerExec.dir/build.make src/server/CMakeFiles/MyServerExec.dir/main.cc.i
 .PHONY : main.cc.i
 
 main.s: main.cc.s
@@ -439,7 +439,7 @@ main.s: main.cc.s
 
 # target to generate assembly for a file
 main.cc.s:
-	cd /home/grick/mygameserver/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/MyServerExec.dir/build.make src/server/CMakeFiles/MyServerExec.dir/main.cc.s
+	cd /home/grick/mygameserver/GameServer/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/MyServerExec.dir/build.make src/server/CMakeFiles/MyServerExec.dir/main.cc.s
 .PHONY : main.cc.s
 
 # Help Target
@@ -501,6 +501,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/grick/mygameserver/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/grick/mygameserver/GameServer/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

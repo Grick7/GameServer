@@ -8,12 +8,12 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/grick/mygameserver/src/client/client.cc" "src/client/CMakeFiles/MyClientExec.dir/client.cc.o" "gcc" "src/client/CMakeFiles/MyClientExec.dir/client.cc.o.d"
+  "/home/grick/mygameserver/GameServer/src/client/client.cc" "src/client/CMakeFiles/MyClientExec.dir/client.cc.o" "gcc" "src/client/CMakeFiles/MyClientExec.dir/client.cc.o.d"
   )
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/grick/mygameserver/build/CMakeFiles/ProtoMessages.dir/DependInfo.cmake"
+  "/home/grick/mygameserver/GameServer/build/CMakeFiles/ProtoMessages.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

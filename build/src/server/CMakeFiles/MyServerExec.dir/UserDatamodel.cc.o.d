@@ -1,8 +1,9 @@
 src/server/CMakeFiles/MyServerExec.dir/UserDatamodel.cc.o: \
- /home/grick/mygameserver/src/server/UserDatamodel.cc \
+ /home/grick/mygameserver/GameServer/src/server/UserDatamodel.cc \
  /usr/include/stdc-predef.h \
- /home/grick/mygameserver/include/server/UserDatamodel.h \
- /home/grick/mygameserver/include/server/DB.h /usr/include/mysql/mysql.h \
+ /home/grick/mygameserver/GameServer/include/server/UserDatamodel.h \
+ /home/grick/mygameserver/GameServer/include/server/DB.h \
+ /usr/include/mysql/mysql.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdbool.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h /usr/include/stdint.h \
@@ -138,7 +139,8 @@ src/server/CMakeFiles/MyServerExec.dir/UserDatamodel.cc.o: \
  /usr/include/x86_64-linux-gnu/bits/types/error_t.h \
  /usr/include/c++/11/bits/charconv.h \
  /usr/include/c++/11/bits/basic_string.tcc \
- /home/grick/mygameserver/build/protocol.pb.h /usr/include/c++/11/limits \
+ /home/grick/mygameserver/GameServer/build/protocol.pb.h \
+ /usr/include/c++/11/limits \
  /usr/local/include/google/protobuf/port_def.inc \
  /usr/local/include/google/protobuf/port_undef.inc \
  /usr/local/include/google/protobuf/io/coded_stream.h \

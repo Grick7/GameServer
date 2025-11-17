@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK
 
-CXX_INCLUDES = -I/home/grick/mygameserver/include/server -I/home/grick/mygameserver/include -I/home/grick/mygameserver/include/client -I/home/grick/mygameserver/build
+CXX_INCLUDES = -I/home/grick/mygameserver/GameServer/include/server -I/home/grick/mygameserver/GameServer/include -I/home/grick/mygameserver/GameServer/include/client -I/home/grick/mygameserver/GameServer/build
 
 CXX_FLAGS = -std=gnu++17
 

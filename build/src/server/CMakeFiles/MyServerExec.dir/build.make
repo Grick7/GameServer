@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/grick/mygameserver
+CMAKE_SOURCE_DIR = /home/grick/mygameserver/GameServer
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/grick/mygameserver/build
+CMAKE_BINARY_DIR = /home/grick/mygameserver/GameServer/build
 
 # Include any dependencies generated for this target.
 include src/server/CMakeFiles/MyServerExec.dir/depend.make
@@ -72,184 +72,184 @@ include src/server/CMakeFiles/MyServerExec.dir/flags.make
 src/server/CMakeFiles/MyServerExec.dir/main.cc.o: src/server/CMakeFiles/MyServerExec.dir/flags.make
 src/server/CMakeFiles/MyServerExec.dir/main.cc.o: ../src/server/main.cc
 src/server/CMakeFiles/MyServerExec.dir/main.cc.o: src/server/CMakeFiles/MyServerExec.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/grick/mygameserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/server/CMakeFiles/MyServerExec.dir/main.cc.o"
-	cd /home/grick/mygameserver/build/src/server && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/server/CMakeFiles/MyServerExec.dir/main.cc.o -MF CMakeFiles/MyServerExec.dir/main.cc.o.d -o CMakeFiles/MyServerExec.dir/main.cc.o -c /home/grick/mygameserver/src/server/main.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/grick/mygameserver/GameServer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/server/CMakeFiles/MyServerExec.dir/main.cc.o"
+	cd /home/grick/mygameserver/GameServer/build/src/server && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/server/CMakeFiles/MyServerExec.dir/main.cc.o -MF CMakeFiles/MyServerExec.dir/main.cc.o.d -o CMakeFiles/MyServerExec.dir/main.cc.o -c /home/grick/mygameserver/GameServer/src/server/main.cc
 
 src/server/CMakeFiles/MyServerExec.dir/main.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MyServerExec.dir/main.cc.i"
-	cd /home/grick/mygameserver/build/src/server && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/grick/mygameserver/src/server/main.cc > CMakeFiles/MyServerExec.dir/main.cc.i
+	cd /home/grick/mygameserver/GameServer/build/src/server && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/grick/mygameserver/GameServer/src/server/main.cc > CMakeFiles/MyServerExec.dir/main.cc.i
 
 src/server/CMakeFiles/MyServerExec.dir/main.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MyServerExec.dir/main.cc.s"
-	cd /home/grick/mygameserver/build/src/server && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/grick/mygameserver/src/server/main.cc -o CMakeFiles/MyServerExec.dir/main.cc.s
+	cd /home/grick/mygameserver/GameServer/build/src/server && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/grick/mygameserver/GameServer/src/server/main.cc -o CMakeFiles/MyServerExec.dir/main.cc.s
 
 src/server/CMakeFiles/MyServerExec.dir/Session.cc.o: src/server/CMakeFiles/MyServerExec.dir/flags.make
 src/server/CMakeFiles/MyServerExec.dir/Session.cc.o: ../src/server/Session.cc
 src/server/CMakeFiles/MyServerExec.dir/Session.cc.o: src/server/CMakeFiles/MyServerExec.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/grick/mygameserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/server/CMakeFiles/MyServerExec.dir/Session.cc.o"
-	cd /home/grick/mygameserver/build/src/server && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/server/CMakeFiles/MyServerExec.dir/Session.cc.o -MF CMakeFiles/MyServerExec.dir/Session.cc.o.d -o CMakeFiles/MyServerExec.dir/Session.cc.o -c /home/grick/mygameserver/src/server/Session.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/grick/mygameserver/GameServer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/server/CMakeFiles/MyServerExec.dir/Session.cc.o"
+	cd /home/grick/mygameserver/GameServer/build/src/server && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/server/CMakeFiles/MyServerExec.dir/Session.cc.o -MF CMakeFiles/MyServerExec.dir/Session.cc.o.d -o CMakeFiles/MyServerExec.dir/Session.cc.o -c /home/grick/mygameserver/GameServer/src/server/Session.cc
 
 src/server/CMakeFiles/MyServerExec.dir/Session.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MyServerExec.dir/Session.cc.i"
-	cd /home/grick/mygameserver/build/src/server && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/grick/mygameserver/src/server/Session.cc > CMakeFiles/MyServerExec.dir/Session.cc.i
+	cd /home/grick/mygameserver/GameServer/build/src/server && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/grick/mygameserver/GameServer/src/server/Session.cc > CMakeFiles/MyServerExec.dir/Session.cc.i
 
 src/server/CMakeFiles/MyServerExec.dir/Session.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MyServerExec.dir/Session.cc.s"
-	cd /home/grick/mygameserver/build/src/server && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/grick/mygameserver/src/server/Session.cc -o CMakeFiles/MyServerExec.dir/Session.cc.s
+	cd /home/grick/mygameserver/GameServer/build/src/server && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/grick/mygameserver/GameServer/src/server/Session.cc -o CMakeFiles/MyServerExec.dir/Session.cc.s
 
 src/server/CMakeFiles/MyServerExec.dir/DB.cc.o: src/server/CMakeFiles/MyServerExec.dir/flags.make
 src/server/CMakeFiles/MyServerExec.dir/DB.cc.o: ../src/server/DB.cc
 src/server/CMakeFiles/MyServerExec.dir/DB.cc.o: src/server/CMakeFiles/MyServerExec.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/grick/mygameserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/server/CMakeFiles/MyServerExec.dir/DB.cc.o"
-	cd /home/grick/mygameserver/build/src/server && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/server/CMakeFiles/MyServerExec.dir/DB.cc.o -MF CMakeFiles/MyServerExec.dir/DB.cc.o.d -o CMakeFiles/MyServerExec.dir/DB.cc.o -c /home/grick/mygameserver/src/server/DB.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/grick/mygameserver/GameServer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/server/CMakeFiles/MyServerExec.dir/DB.cc.o"
+	cd /home/grick/mygameserver/GameServer/build/src/server && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/server/CMakeFiles/MyServerExec.dir/DB.cc.o -MF CMakeFiles/MyServerExec.dir/DB.cc.o.d -o CMakeFiles/MyServerExec.dir/DB.cc.o -c /home/grick/mygameserver/GameServer/src/server/DB.cc
 
 src/server/CMakeFiles/MyServerExec.dir/DB.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MyServerExec.dir/DB.cc.i"
-	cd /home/grick/mygameserver/build/src/server && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/grick/mygameserver/src/server/DB.cc > CMakeFiles/MyServerExec.dir/DB.cc.i
+	cd /home/grick/mygameserver/GameServer/build/src/server && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/grick/mygameserver/GameServer/src/server/DB.cc > CMakeFiles/MyServerExec.dir/DB.cc.i
 
 src/server/CMakeFiles/MyServerExec.dir/DB.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MyServerExec.dir/DB.cc.s"
-	cd /home/grick/mygameserver/build/src/server && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/grick/mygameserver/src/server/DB.cc -o CMakeFiles/MyServerExec.dir/DB.cc.s
+	cd /home/grick/mygameserver/GameServer/build/src/server && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/grick/mygameserver/GameServer/src/server/DB.cc -o CMakeFiles/MyServerExec.dir/DB.cc.s
 
 src/server/CMakeFiles/MyServerExec.dir/GameServer.cc.o: src/server/CMakeFiles/MyServerExec.dir/flags.make
 src/server/CMakeFiles/MyServerExec.dir/GameServer.cc.o: ../src/server/GameServer.cc
 src/server/CMakeFiles/MyServerExec.dir/GameServer.cc.o: src/server/CMakeFiles/MyServerExec.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/grick/mygameserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object src/server/CMakeFiles/MyServerExec.dir/GameServer.cc.o"
-	cd /home/grick/mygameserver/build/src/server && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/server/CMakeFiles/MyServerExec.dir/GameServer.cc.o -MF CMakeFiles/MyServerExec.dir/GameServer.cc.o.d -o CMakeFiles/MyServerExec.dir/GameServer.cc.o -c /home/grick/mygameserver/src/server/GameServer.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/grick/mygameserver/GameServer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object src/server/CMakeFiles/MyServerExec.dir/GameServer.cc.o"
+	cd /home/grick/mygameserver/GameServer/build/src/server && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/server/CMakeFiles/MyServerExec.dir/GameServer.cc.o -MF CMakeFiles/MyServerExec.dir/GameServer.cc.o.d -o CMakeFiles/MyServerExec.dir/GameServer.cc.o -c /home/grick/mygameserver/GameServer/src/server/GameServer.cc
 
 src/server/CMakeFiles/MyServerExec.dir/GameServer.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MyServerExec.dir/GameServer.cc.i"
-	cd /home/grick/mygameserver/build/src/server && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/grick/mygameserver/src/server/GameServer.cc > CMakeFiles/MyServerExec.dir/GameServer.cc.i
+	cd /home/grick/mygameserver/GameServer/build/src/server && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/grick/mygameserver/GameServer/src/server/GameServer.cc > CMakeFiles/MyServerExec.dir/GameServer.cc.i
 
 src/server/CMakeFiles/MyServerExec.dir/GameServer.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MyServerExec.dir/GameServer.cc.s"
-	cd /home/grick/mygameserver/build/src/server && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/grick/mygameserver/src/server/GameServer.cc -o CMakeFiles/MyServerExec.dir/GameServer.cc.s
+	cd /home/grick/mygameserver/GameServer/build/src/server && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/grick/mygameserver/GameServer/src/server/GameServer.cc -o CMakeFiles/MyServerExec.dir/GameServer.cc.s
 
 src/server/CMakeFiles/MyServerExec.dir/SessionManager.cc.o: src/server/CMakeFiles/MyServerExec.dir/flags.make
 src/server/CMakeFiles/MyServerExec.dir/SessionManager.cc.o: ../src/server/SessionManager.cc
 src/server/CMakeFiles/MyServerExec.dir/SessionManager.cc.o: src/server/CMakeFiles/MyServerExec.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/grick/mygameserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object src/server/CMakeFiles/MyServerExec.dir/SessionManager.cc.o"
-	cd /home/grick/mygameserver/build/src/server && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/server/CMakeFiles/MyServerExec.dir/SessionManager.cc.o -MF CMakeFiles/MyServerExec.dir/SessionManager.cc.o.d -o CMakeFiles/MyServerExec.dir/SessionManager.cc.o -c /home/grick/mygameserver/src/server/SessionManager.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/grick/mygameserver/GameServer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object src/server/CMakeFiles/MyServerExec.dir/SessionManager.cc.o"
+	cd /home/grick/mygameserver/GameServer/build/src/server && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/server/CMakeFiles/MyServerExec.dir/SessionManager.cc.o -MF CMakeFiles/MyServerExec.dir/SessionManager.cc.o.d -o CMakeFiles/MyServerExec.dir/SessionManager.cc.o -c /home/grick/mygameserver/GameServer/src/server/SessionManager.cc
 
 src/server/CMakeFiles/MyServerExec.dir/SessionManager.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MyServerExec.dir/SessionManager.cc.i"
-	cd /home/grick/mygameserver/build/src/server && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/grick/mygameserver/src/server/SessionManager.cc > CMakeFiles/MyServerExec.dir/SessionManager.cc.i
+	cd /home/grick/mygameserver/GameServer/build/src/server && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/grick/mygameserver/GameServer/src/server/SessionManager.cc > CMakeFiles/MyServerExec.dir/SessionManager.cc.i
 
 src/server/CMakeFiles/MyServerExec.dir/SessionManager.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MyServerExec.dir/SessionManager.cc.s"
-	cd /home/grick/mygameserver/build/src/server && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/grick/mygameserver/src/server/SessionManager.cc -o CMakeFiles/MyServerExec.dir/SessionManager.cc.s
+	cd /home/grick/mygameserver/GameServer/build/src/server && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/grick/mygameserver/GameServer/src/server/SessionManager.cc -o CMakeFiles/MyServerExec.dir/SessionManager.cc.s
 
 src/server/CMakeFiles/MyServerExec.dir/MessageDispatcher.cc.o: src/server/CMakeFiles/MyServerExec.dir/flags.make
 src/server/CMakeFiles/MyServerExec.dir/MessageDispatcher.cc.o: ../src/server/MessageDispatcher.cc
 src/server/CMakeFiles/MyServerExec.dir/MessageDispatcher.cc.o: src/server/CMakeFiles/MyServerExec.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/grick/mygameserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object src/server/CMakeFiles/MyServerExec.dir/MessageDispatcher.cc.o"
-	cd /home/grick/mygameserver/build/src/server && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/server/CMakeFiles/MyServerExec.dir/MessageDispatcher.cc.o -MF CMakeFiles/MyServerExec.dir/MessageDispatcher.cc.o.d -o CMakeFiles/MyServerExec.dir/MessageDispatcher.cc.o -c /home/grick/mygameserver/src/server/MessageDispatcher.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/grick/mygameserver/GameServer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object src/server/CMakeFiles/MyServerExec.dir/MessageDispatcher.cc.o"
+	cd /home/grick/mygameserver/GameServer/build/src/server && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/server/CMakeFiles/MyServerExec.dir/MessageDispatcher.cc.o -MF CMakeFiles/MyServerExec.dir/MessageDispatcher.cc.o.d -o CMakeFiles/MyServerExec.dir/MessageDispatcher.cc.o -c /home/grick/mygameserver/GameServer/src/server/MessageDispatcher.cc
 
 src/server/CMakeFiles/MyServerExec.dir/MessageDispatcher.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MyServerExec.dir/MessageDispatcher.cc.i"
-	cd /home/grick/mygameserver/build/src/server && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/grick/mygameserver/src/server/MessageDispatcher.cc > CMakeFiles/MyServerExec.dir/MessageDispatcher.cc.i
+	cd /home/grick/mygameserver/GameServer/build/src/server && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/grick/mygameserver/GameServer/src/server/MessageDispatcher.cc > CMakeFiles/MyServerExec.dir/MessageDispatcher.cc.i
 
 src/server/CMakeFiles/MyServerExec.dir/MessageDispatcher.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MyServerExec.dir/MessageDispatcher.cc.s"
-	cd /home/grick/mygameserver/build/src/server && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/grick/mygameserver/src/server/MessageDispatcher.cc -o CMakeFiles/MyServerExec.dir/MessageDispatcher.cc.s
+	cd /home/grick/mygameserver/GameServer/build/src/server && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/grick/mygameserver/GameServer/src/server/MessageDispatcher.cc -o CMakeFiles/MyServerExec.dir/MessageDispatcher.cc.s
 
 src/server/CMakeFiles/MyServerExec.dir/Usermodel.cc.o: src/server/CMakeFiles/MyServerExec.dir/flags.make
 src/server/CMakeFiles/MyServerExec.dir/Usermodel.cc.o: ../src/server/Usermodel.cc
 src/server/CMakeFiles/MyServerExec.dir/Usermodel.cc.o: src/server/CMakeFiles/MyServerExec.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/grick/mygameserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object src/server/CMakeFiles/MyServerExec.dir/Usermodel.cc.o"
-	cd /home/grick/mygameserver/build/src/server && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/server/CMakeFiles/MyServerExec.dir/Usermodel.cc.o -MF CMakeFiles/MyServerExec.dir/Usermodel.cc.o.d -o CMakeFiles/MyServerExec.dir/Usermodel.cc.o -c /home/grick/mygameserver/src/server/Usermodel.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/grick/mygameserver/GameServer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object src/server/CMakeFiles/MyServerExec.dir/Usermodel.cc.o"
+	cd /home/grick/mygameserver/GameServer/build/src/server && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/server/CMakeFiles/MyServerExec.dir/Usermodel.cc.o -MF CMakeFiles/MyServerExec.dir/Usermodel.cc.o.d -o CMakeFiles/MyServerExec.dir/Usermodel.cc.o -c /home/grick/mygameserver/GameServer/src/server/Usermodel.cc
 
 src/server/CMakeFiles/MyServerExec.dir/Usermodel.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MyServerExec.dir/Usermodel.cc.i"
-	cd /home/grick/mygameserver/build/src/server && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/grick/mygameserver/src/server/Usermodel.cc > CMakeFiles/MyServerExec.dir/Usermodel.cc.i
+	cd /home/grick/mygameserver/GameServer/build/src/server && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/grick/mygameserver/GameServer/src/server/Usermodel.cc > CMakeFiles/MyServerExec.dir/Usermodel.cc.i
 
 src/server/CMakeFiles/MyServerExec.dir/Usermodel.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MyServerExec.dir/Usermodel.cc.s"
-	cd /home/grick/mygameserver/build/src/server && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/grick/mygameserver/src/server/Usermodel.cc -o CMakeFiles/MyServerExec.dir/Usermodel.cc.s
+	cd /home/grick/mygameserver/GameServer/build/src/server && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/grick/mygameserver/GameServer/src/server/Usermodel.cc -o CMakeFiles/MyServerExec.dir/Usermodel.cc.s
 
 src/server/CMakeFiles/MyServerExec.dir/PlayerDataManager.cc.o: src/server/CMakeFiles/MyServerExec.dir/flags.make
 src/server/CMakeFiles/MyServerExec.dir/PlayerDataManager.cc.o: ../src/server/PlayerDataManager.cc
 src/server/CMakeFiles/MyServerExec.dir/PlayerDataManager.cc.o: src/server/CMakeFiles/MyServerExec.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/grick/mygameserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object src/server/CMakeFiles/MyServerExec.dir/PlayerDataManager.cc.o"
-	cd /home/grick/mygameserver/build/src/server && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/server/CMakeFiles/MyServerExec.dir/PlayerDataManager.cc.o -MF CMakeFiles/MyServerExec.dir/PlayerDataManager.cc.o.d -o CMakeFiles/MyServerExec.dir/PlayerDataManager.cc.o -c /home/grick/mygameserver/src/server/PlayerDataManager.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/grick/mygameserver/GameServer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object src/server/CMakeFiles/MyServerExec.dir/PlayerDataManager.cc.o"
+	cd /home/grick/mygameserver/GameServer/build/src/server && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/server/CMakeFiles/MyServerExec.dir/PlayerDataManager.cc.o -MF CMakeFiles/MyServerExec.dir/PlayerDataManager.cc.o.d -o CMakeFiles/MyServerExec.dir/PlayerDataManager.cc.o -c /home/grick/mygameserver/GameServer/src/server/PlayerDataManager.cc
 
 src/server/CMakeFiles/MyServerExec.dir/PlayerDataManager.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MyServerExec.dir/PlayerDataManager.cc.i"
-	cd /home/grick/mygameserver/build/src/server && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/grick/mygameserver/src/server/PlayerDataManager.cc > CMakeFiles/MyServerExec.dir/PlayerDataManager.cc.i
+	cd /home/grick/mygameserver/GameServer/build/src/server && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/grick/mygameserver/GameServer/src/server/PlayerDataManager.cc > CMakeFiles/MyServerExec.dir/PlayerDataManager.cc.i
 
 src/server/CMakeFiles/MyServerExec.dir/PlayerDataManager.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MyServerExec.dir/PlayerDataManager.cc.s"
-	cd /home/grick/mygameserver/build/src/server && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/grick/mygameserver/src/server/PlayerDataManager.cc -o CMakeFiles/MyServerExec.dir/PlayerDataManager.cc.s
+	cd /home/grick/mygameserver/GameServer/build/src/server && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/grick/mygameserver/GameServer/src/server/PlayerDataManager.cc -o CMakeFiles/MyServerExec.dir/PlayerDataManager.cc.s
 
 src/server/CMakeFiles/MyServerExec.dir/Room.cc.o: src/server/CMakeFiles/MyServerExec.dir/flags.make
 src/server/CMakeFiles/MyServerExec.dir/Room.cc.o: ../src/server/Room.cc
 src/server/CMakeFiles/MyServerExec.dir/Room.cc.o: src/server/CMakeFiles/MyServerExec.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/grick/mygameserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object src/server/CMakeFiles/MyServerExec.dir/Room.cc.o"
-	cd /home/grick/mygameserver/build/src/server && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/server/CMakeFiles/MyServerExec.dir/Room.cc.o -MF CMakeFiles/MyServerExec.dir/Room.cc.o.d -o CMakeFiles/MyServerExec.dir/Room.cc.o -c /home/grick/mygameserver/src/server/Room.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/grick/mygameserver/GameServer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object src/server/CMakeFiles/MyServerExec.dir/Room.cc.o"
+	cd /home/grick/mygameserver/GameServer/build/src/server && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/server/CMakeFiles/MyServerExec.dir/Room.cc.o -MF CMakeFiles/MyServerExec.dir/Room.cc.o.d -o CMakeFiles/MyServerExec.dir/Room.cc.o -c /home/grick/mygameserver/GameServer/src/server/Room.cc
 
 src/server/CMakeFiles/MyServerExec.dir/Room.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MyServerExec.dir/Room.cc.i"
-	cd /home/grick/mygameserver/build/src/server && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/grick/mygameserver/src/server/Room.cc > CMakeFiles/MyServerExec.dir/Room.cc.i
+	cd /home/grick/mygameserver/GameServer/build/src/server && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/grick/mygameserver/GameServer/src/server/Room.cc > CMakeFiles/MyServerExec.dir/Room.cc.i
 
 src/server/CMakeFiles/MyServerExec.dir/Room.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MyServerExec.dir/Room.cc.s"
-	cd /home/grick/mygameserver/build/src/server && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/grick/mygameserver/src/server/Room.cc -o CMakeFiles/MyServerExec.dir/Room.cc.s
+	cd /home/grick/mygameserver/GameServer/build/src/server && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/grick/mygameserver/GameServer/src/server/Room.cc -o CMakeFiles/MyServerExec.dir/Room.cc.s
 
 src/server/CMakeFiles/MyServerExec.dir/BattleRoom.cc.o: src/server/CMakeFiles/MyServerExec.dir/flags.make
 src/server/CMakeFiles/MyServerExec.dir/BattleRoom.cc.o: ../src/server/BattleRoom.cc
 src/server/CMakeFiles/MyServerExec.dir/BattleRoom.cc.o: src/server/CMakeFiles/MyServerExec.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/grick/mygameserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object src/server/CMakeFiles/MyServerExec.dir/BattleRoom.cc.o"
-	cd /home/grick/mygameserver/build/src/server && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/server/CMakeFiles/MyServerExec.dir/BattleRoom.cc.o -MF CMakeFiles/MyServerExec.dir/BattleRoom.cc.o.d -o CMakeFiles/MyServerExec.dir/BattleRoom.cc.o -c /home/grick/mygameserver/src/server/BattleRoom.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/grick/mygameserver/GameServer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object src/server/CMakeFiles/MyServerExec.dir/BattleRoom.cc.o"
+	cd /home/grick/mygameserver/GameServer/build/src/server && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/server/CMakeFiles/MyServerExec.dir/BattleRoom.cc.o -MF CMakeFiles/MyServerExec.dir/BattleRoom.cc.o.d -o CMakeFiles/MyServerExec.dir/BattleRoom.cc.o -c /home/grick/mygameserver/GameServer/src/server/BattleRoom.cc
 
 src/server/CMakeFiles/MyServerExec.dir/BattleRoom.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MyServerExec.dir/BattleRoom.cc.i"
-	cd /home/grick/mygameserver/build/src/server && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/grick/mygameserver/src/server/BattleRoom.cc > CMakeFiles/MyServerExec.dir/BattleRoom.cc.i
+	cd /home/grick/mygameserver/GameServer/build/src/server && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/grick/mygameserver/GameServer/src/server/BattleRoom.cc > CMakeFiles/MyServerExec.dir/BattleRoom.cc.i
 
 src/server/CMakeFiles/MyServerExec.dir/BattleRoom.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MyServerExec.dir/BattleRoom.cc.s"
-	cd /home/grick/mygameserver/build/src/server && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/grick/mygameserver/src/server/BattleRoom.cc -o CMakeFiles/MyServerExec.dir/BattleRoom.cc.s
+	cd /home/grick/mygameserver/GameServer/build/src/server && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/grick/mygameserver/GameServer/src/server/BattleRoom.cc -o CMakeFiles/MyServerExec.dir/BattleRoom.cc.s
 
 src/server/CMakeFiles/MyServerExec.dir/RoomManager.cc.o: src/server/CMakeFiles/MyServerExec.dir/flags.make
 src/server/CMakeFiles/MyServerExec.dir/RoomManager.cc.o: ../src/server/RoomManager.cc
 src/server/CMakeFiles/MyServerExec.dir/RoomManager.cc.o: src/server/CMakeFiles/MyServerExec.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/grick/mygameserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object src/server/CMakeFiles/MyServerExec.dir/RoomManager.cc.o"
-	cd /home/grick/mygameserver/build/src/server && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/server/CMakeFiles/MyServerExec.dir/RoomManager.cc.o -MF CMakeFiles/MyServerExec.dir/RoomManager.cc.o.d -o CMakeFiles/MyServerExec.dir/RoomManager.cc.o -c /home/grick/mygameserver/src/server/RoomManager.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/grick/mygameserver/GameServer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object src/server/CMakeFiles/MyServerExec.dir/RoomManager.cc.o"
+	cd /home/grick/mygameserver/GameServer/build/src/server && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/server/CMakeFiles/MyServerExec.dir/RoomManager.cc.o -MF CMakeFiles/MyServerExec.dir/RoomManager.cc.o.d -o CMakeFiles/MyServerExec.dir/RoomManager.cc.o -c /home/grick/mygameserver/GameServer/src/server/RoomManager.cc
 
 src/server/CMakeFiles/MyServerExec.dir/RoomManager.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MyServerExec.dir/RoomManager.cc.i"
-	cd /home/grick/mygameserver/build/src/server && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/grick/mygameserver/src/server/RoomManager.cc > CMakeFiles/MyServerExec.dir/RoomManager.cc.i
+	cd /home/grick/mygameserver/GameServer/build/src/server && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/grick/mygameserver/GameServer/src/server/RoomManager.cc > CMakeFiles/MyServerExec.dir/RoomManager.cc.i
 
 src/server/CMakeFiles/MyServerExec.dir/RoomManager.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MyServerExec.dir/RoomManager.cc.s"
-	cd /home/grick/mygameserver/build/src/server && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/grick/mygameserver/src/server/RoomManager.cc -o CMakeFiles/MyServerExec.dir/RoomManager.cc.s
+	cd /home/grick/mygameserver/GameServer/build/src/server && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/grick/mygameserver/GameServer/src/server/RoomManager.cc -o CMakeFiles/MyServerExec.dir/RoomManager.cc.s
 
 src/server/CMakeFiles/MyServerExec.dir/UserDatamodel.cc.o: src/server/CMakeFiles/MyServerExec.dir/flags.make
 src/server/CMakeFiles/MyServerExec.dir/UserDatamodel.cc.o: ../src/server/UserDatamodel.cc
 src/server/CMakeFiles/MyServerExec.dir/UserDatamodel.cc.o: src/server/CMakeFiles/MyServerExec.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/grick/mygameserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object src/server/CMakeFiles/MyServerExec.dir/UserDatamodel.cc.o"
-	cd /home/grick/mygameserver/build/src/server && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/server/CMakeFiles/MyServerExec.dir/UserDatamodel.cc.o -MF CMakeFiles/MyServerExec.dir/UserDatamodel.cc.o.d -o CMakeFiles/MyServerExec.dir/UserDatamodel.cc.o -c /home/grick/mygameserver/src/server/UserDatamodel.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/grick/mygameserver/GameServer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object src/server/CMakeFiles/MyServerExec.dir/UserDatamodel.cc.o"
+	cd /home/grick/mygameserver/GameServer/build/src/server && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/server/CMakeFiles/MyServerExec.dir/UserDatamodel.cc.o -MF CMakeFiles/MyServerExec.dir/UserDatamodel.cc.o.d -o CMakeFiles/MyServerExec.dir/UserDatamodel.cc.o -c /home/grick/mygameserver/GameServer/src/server/UserDatamodel.cc
 
 src/server/CMakeFiles/MyServerExec.dir/UserDatamodel.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MyServerExec.dir/UserDatamodel.cc.i"
-	cd /home/grick/mygameserver/build/src/server && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/grick/mygameserver/src/server/UserDatamodel.cc > CMakeFiles/MyServerExec.dir/UserDatamodel.cc.i
+	cd /home/grick/mygameserver/GameServer/build/src/server && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/grick/mygameserver/GameServer/src/server/UserDatamodel.cc > CMakeFiles/MyServerExec.dir/UserDatamodel.cc.i
 
 src/server/CMakeFiles/MyServerExec.dir/UserDatamodel.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MyServerExec.dir/UserDatamodel.cc.s"
-	cd /home/grick/mygameserver/build/src/server && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/grick/mygameserver/src/server/UserDatamodel.cc -o CMakeFiles/MyServerExec.dir/UserDatamodel.cc.s
+	cd /home/grick/mygameserver/GameServer/build/src/server && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/grick/mygameserver/GameServer/src/server/UserDatamodel.cc -o CMakeFiles/MyServerExec.dir/UserDatamodel.cc.s
 
 src/server/CMakeFiles/MyServerExec.dir/ThreadPool.cc.o: src/server/CMakeFiles/MyServerExec.dir/flags.make
 src/server/CMakeFiles/MyServerExec.dir/ThreadPool.cc.o: ../src/server/ThreadPool.cc
 src/server/CMakeFiles/MyServerExec.dir/ThreadPool.cc.o: src/server/CMakeFiles/MyServerExec.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/grick/mygameserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object src/server/CMakeFiles/MyServerExec.dir/ThreadPool.cc.o"
-	cd /home/grick/mygameserver/build/src/server && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/server/CMakeFiles/MyServerExec.dir/ThreadPool.cc.o -MF CMakeFiles/MyServerExec.dir/ThreadPool.cc.o.d -o CMakeFiles/MyServerExec.dir/ThreadPool.cc.o -c /home/grick/mygameserver/src/server/ThreadPool.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/grick/mygameserver/GameServer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object src/server/CMakeFiles/MyServerExec.dir/ThreadPool.cc.o"
+	cd /home/grick/mygameserver/GameServer/build/src/server && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/server/CMakeFiles/MyServerExec.dir/ThreadPool.cc.o -MF CMakeFiles/MyServerExec.dir/ThreadPool.cc.o.d -o CMakeFiles/MyServerExec.dir/ThreadPool.cc.o -c /home/grick/mygameserver/GameServer/src/server/ThreadPool.cc
 
 src/server/CMakeFiles/MyServerExec.dir/ThreadPool.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MyServerExec.dir/ThreadPool.cc.i"
-	cd /home/grick/mygameserver/build/src/server && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/grick/mygameserver/src/server/ThreadPool.cc > CMakeFiles/MyServerExec.dir/ThreadPool.cc.i
+	cd /home/grick/mygameserver/GameServer/build/src/server && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/grick/mygameserver/GameServer/src/server/ThreadPool.cc > CMakeFiles/MyServerExec.dir/ThreadPool.cc.i
 
 src/server/CMakeFiles/MyServerExec.dir/ThreadPool.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MyServerExec.dir/ThreadPool.cc.s"
-	cd /home/grick/mygameserver/build/src/server && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/grick/mygameserver/src/server/ThreadPool.cc -o CMakeFiles/MyServerExec.dir/ThreadPool.cc.s
+	cd /home/grick/mygameserver/GameServer/build/src/server && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/grick/mygameserver/GameServer/src/server/ThreadPool.cc -o CMakeFiles/MyServerExec.dir/ThreadPool.cc.s
 
 # Object files for target MyServerExec
 MyServerExec_OBJECTS = \
@@ -291,18 +291,18 @@ src/server/MyServerExec: /usr/local/lib/libprotobuf.so
 src/server/MyServerExec: /home/grick/package/vcpkg/vcpkg/installed/x64-linux/debug/lib/librdkafka.a
 src/server/MyServerExec: /home/grick/package/vcpkg/vcpkg/installed/x64-linux/debug/lib/liblz4d.a
 src/server/MyServerExec: src/server/CMakeFiles/MyServerExec.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/grick/mygameserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Linking CXX executable MyServerExec"
-	cd /home/grick/mygameserver/build/src/server && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/MyServerExec.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/grick/mygameserver/GameServer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Linking CXX executable MyServerExec"
+	cd /home/grick/mygameserver/GameServer/build/src/server && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/MyServerExec.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 src/server/CMakeFiles/MyServerExec.dir/build: src/server/MyServerExec
 .PHONY : src/server/CMakeFiles/MyServerExec.dir/build
 
 src/server/CMakeFiles/MyServerExec.dir/clean:
-	cd /home/grick/mygameserver/build/src/server && $(CMAKE_COMMAND) -P CMakeFiles/MyServerExec.dir/cmake_clean.cmake
+	cd /home/grick/mygameserver/GameServer/build/src/server && $(CMAKE_COMMAND) -P CMakeFiles/MyServerExec.dir/cmake_clean.cmake
 .PHONY : src/server/CMakeFiles/MyServerExec.dir/clean
 
 src/server/CMakeFiles/MyServerExec.dir/depend:
-	cd /home/grick/mygameserver/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/grick/mygameserver /home/grick/mygameserver/src/server /home/grick/mygameserver/build /home/grick/mygameserver/build/src/server /home/grick/mygameserver/build/src/server/CMakeFiles/MyServerExec.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/grick/mygameserver/GameServer/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/grick/mygameserver/GameServer /home/grick/mygameserver/GameServer/src/server /home/grick/mygameserver/GameServer/build /home/grick/mygameserver/GameServer/build/src/server /home/grick/mygameserver/GameServer/build/src/server/CMakeFiles/MyServerExec.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : src/server/CMakeFiles/MyServerExec.dir/depend
 

@@ -1,7 +1,7 @@
 src/server/CMakeFiles/MyServerExec.dir/ThreadPool.cc.o: \
- /home/grick/mygameserver/src/server/ThreadPool.cc \
+ /home/grick/mygameserver/GameServer/src/server/ThreadPool.cc \
  /usr/include/stdc-predef.h \
- /home/grick/mygameserver/include/server/ThreadPool.h \
+ /home/grick/mygameserver/GameServer/include/server/ThreadPool.h \
  /usr/include/c++/11/mutex /usr/include/c++/11/tuple \
  /usr/include/c++/11/utility \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \

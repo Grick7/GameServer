@@ -1,6 +1,7 @@
 src/server/CMakeFiles/MyServerExec.dir/Room.cc.o: \
- /home/grick/mygameserver/src/server/Room.cc /usr/include/stdc-predef.h \
- /home/grick/mygameserver/include/server/Room.h \
+ /home/grick/mygameserver/GameServer/src/server/Room.cc \
+ /usr/include/stdc-predef.h \
+ /home/grick/mygameserver/GameServer/include/server/Room.h \
  /usr/include/c++/11/string \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
@@ -171,8 +172,8 @@ src/server/CMakeFiles/MyServerExec.dir/Room.cc.o: \
  /usr/include/x86_64-linux-gnu/c++/11/bits/error_constants.h \
  /usr/include/c++/11/stdexcept /usr/include/c++/11/bits/std_mutex.h \
  /usr/include/c++/11/bits/unique_lock.h \
- /home/grick/mygameserver/include/public.h \
- /home/grick/mygameserver/include/server/GameUser.h \
+ /home/grick/mygameserver/GameServer/include/public.h \
+ /home/grick/mygameserver/GameServer/include/server/GameUser.h \
  /usr/include/c++/11/algorithm /usr/include/c++/11/bits/stl_algo.h \
  /usr/include/c++/11/bits/algorithmfwd.h \
  /usr/include/c++/11/bits/stl_heap.h \

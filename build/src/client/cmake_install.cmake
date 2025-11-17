@@ -1,4 +1,4 @@
-# Install script for directory: /home/grick/mygameserver/src/client
+# Install script for directory: /home/grick/mygameserver/GameServer/src/client
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

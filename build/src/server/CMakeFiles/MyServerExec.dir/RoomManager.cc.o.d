@@ -1,7 +1,7 @@
 src/server/CMakeFiles/MyServerExec.dir/RoomManager.cc.o: \
- /home/grick/mygameserver/src/server/RoomManager.cc \
+ /home/grick/mygameserver/GameServer/src/server/RoomManager.cc \
  /usr/include/stdc-predef.h \
- /home/grick/mygameserver/include/server/RoomManager.h \
+ /home/grick/mygameserver/GameServer/include/server/RoomManager.h \
  /usr/include/c++/11/unordered_map /usr/include/c++/11/type_traits \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
@@ -1110,18 +1110,18 @@ src/server/CMakeFiles/MyServerExec.dir/RoomManager.cc.o: \
  /usr/include/boost/asio/windows/stream_handle.hpp \
  /usr/include/boost/asio/write_at.hpp \
  /usr/include/boost/asio/impl/write_at.hpp \
- /home/grick/mygameserver/include/server/Room.h \
- /home/grick/mygameserver/include/public.h \
- /home/grick/mygameserver/include/server/GameUser.h \
- /home/grick/mygameserver/include/server/BattleRoom.h \
- /home/grick/mygameserver/include/server/SessionManager.h \
- /home/grick/mygameserver/include/server/Session.h \
+ /home/grick/mygameserver/GameServer/include/server/Room.h \
+ /home/grick/mygameserver/GameServer/include/public.h \
+ /home/grick/mygameserver/GameServer/include/server/GameUser.h \
+ /home/grick/mygameserver/GameServer/include/server/BattleRoom.h \
+ /home/grick/mygameserver/GameServer/include/server/SessionManager.h \
+ /home/grick/mygameserver/GameServer/include/server/Session.h \
  /usr/include/c++/11/iostream /usr/include/c++/11/deque \
  /usr/include/c++/11/bits/stl_deque.h /usr/include/c++/11/bits/deque.tcc \
- /home/grick/mygameserver/include/server/ThreadPool.h \
+ /home/grick/mygameserver/GameServer/include/server/ThreadPool.h \
  /usr/include/c++/11/queue /usr/include/c++/11/bits/stl_queue.h \
  /usr/include/c++/11/thread /usr/include/c++/11/bits/this_thread_sleep.h \
- /home/grick/mygameserver/build/protocol.pb.h \
+ /home/grick/mygameserver/GameServer/build/protocol.pb.h \
  /usr/local/include/google/protobuf/port_def.inc \
  /usr/local/include/google/protobuf/port_undef.inc \
  /usr/local/include/google/protobuf/io/coded_stream.h \

@@ -1,6 +1,8 @@
 src/server/CMakeFiles/MyServerExec.dir/DB.cc.o: \
- /home/grick/mygameserver/src/server/DB.cc /usr/include/stdc-predef.h \
- /home/grick/mygameserver/include/server/DB.h /usr/include/mysql/mysql.h \
+ /home/grick/mygameserver/GameServer/src/server/DB.cc \
+ /usr/include/stdc-predef.h \
+ /home/grick/mygameserver/GameServer/include/server/DB.h \
+ /usr/include/mysql/mysql.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdbool.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h /usr/include/stdint.h \

@@ -1,6 +1,6 @@
 src/client/CMakeFiles/MyClientExec.dir/client.cc.o: \
- /home/grick/mygameserver/src/client/client.cc /usr/include/stdc-predef.h \
- /usr/include/boost/asio.hpp \
+ /home/grick/mygameserver/GameServer/src/client/client.cc \
+ /usr/include/stdc-predef.h /usr/include/boost/asio.hpp \
  /usr/include/boost/asio/associated_allocator.hpp \
  /usr/include/boost/asio/detail/config.hpp /usr/include/boost/config.hpp \
  /usr/include/boost/config/user.hpp \
@@ -1111,7 +1111,7 @@ src/client/CMakeFiles/MyClientExec.dir/client.cc.o: \
  /usr/include/boost/asio/write_at.hpp \
  /usr/include/boost/asio/impl/write_at.hpp /usr/include/c++/11/iostream \
  /usr/include/c++/11/thread /usr/include/c++/11/bits/this_thread_sleep.h \
- /home/grick/mygameserver/build/protocol.pb.h \
+ /home/grick/mygameserver/GameServer/build/protocol.pb.h \
  /usr/local/include/google/protobuf/port_def.inc \
  /usr/local/include/google/protobuf/port_undef.inc \
  /usr/local/include/google/protobuf/io/coded_stream.h \
@@ -1164,4 +1164,4 @@ src/client/CMakeFiles/MyClientExec.dir/client.cc.o: \
  /usr/local/include/google/protobuf/stubs/stl_util.h \
  /usr/local/include/google/protobuf/message.h \
  /usr/local/include/google/protobuf/extension_set.h \
- /home/grick/mygameserver/include/public.h
+ /home/grick/mygameserver/GameServer/include/public.h

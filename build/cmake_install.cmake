@@ -1,4 +1,4 @@
-# Install script for directory: /home/grick/mygameserver
+# Install script for directory: /home/grick/mygameserver/GameServer
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -44,8 +44,8 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/grick/mygameserver/build/src/client/cmake_install.cmake")
-  include("/home/grick/mygameserver/build/src/server/cmake_install.cmake")
+  include("/home/grick/mygameserver/GameServer/build/src/client/cmake_install.cmake")
+  include("/home/grick/mygameserver/GameServer/build/src/server/cmake_install.cmake")
 
 endif()
 
@@ -57,5 +57,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/grick/mygameserver/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/grick/mygameserver/GameServer/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
