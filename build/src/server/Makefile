@@ -154,6 +154,54 @@ BattleRoom.cc.s:
 	cd /home/grick/mygameserver/GameServer/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/MyServerExec.dir/build.make src/server/CMakeFiles/MyServerExec.dir/BattleRoom.cc.s
 .PHONY : BattleRoom.cc.s
 
+CoroutinesServer.o: CoroutinesServer.cc.o
+.PHONY : CoroutinesServer.o
+
+# target to build an object file
+CoroutinesServer.cc.o:
+	cd /home/grick/mygameserver/GameServer/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/MyServerExec.dir/build.make src/server/CMakeFiles/MyServerExec.dir/CoroutinesServer.cc.o
+.PHONY : CoroutinesServer.cc.o
+
+CoroutinesServer.i: CoroutinesServer.cc.i
+.PHONY : CoroutinesServer.i
+
+# target to preprocess a source file
+CoroutinesServer.cc.i:
+	cd /home/grick/mygameserver/GameServer/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/MyServerExec.dir/build.make src/server/CMakeFiles/MyServerExec.dir/CoroutinesServer.cc.i
+.PHONY : CoroutinesServer.cc.i
+
+CoroutinesServer.s: CoroutinesServer.cc.s
+.PHONY : CoroutinesServer.s
+
+# target to generate assembly for a file
+CoroutinesServer.cc.s:
+	cd /home/grick/mygameserver/GameServer/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/MyServerExec.dir/build.make src/server/CMakeFiles/MyServerExec.dir/CoroutinesServer.cc.s
+.PHONY : CoroutinesServer.cc.s
+
+CoroutinesSession.o: CoroutinesSession.cc.o
+.PHONY : CoroutinesSession.o
+
+# target to build an object file
+CoroutinesSession.cc.o:
+	cd /home/grick/mygameserver/GameServer/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/MyServerExec.dir/build.make src/server/CMakeFiles/MyServerExec.dir/CoroutinesSession.cc.o
+.PHONY : CoroutinesSession.cc.o
+
+CoroutinesSession.i: CoroutinesSession.cc.i
+.PHONY : CoroutinesSession.i
+
+# target to preprocess a source file
+CoroutinesSession.cc.i:
+	cd /home/grick/mygameserver/GameServer/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/MyServerExec.dir/build.make src/server/CMakeFiles/MyServerExec.dir/CoroutinesSession.cc.i
+.PHONY : CoroutinesSession.cc.i
+
+CoroutinesSession.s: CoroutinesSession.cc.s
+.PHONY : CoroutinesSession.s
+
+# target to generate assembly for a file
+CoroutinesSession.cc.s:
+	cd /home/grick/mygameserver/GameServer/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/MyServerExec.dir/build.make src/server/CMakeFiles/MyServerExec.dir/CoroutinesSession.cc.s
+.PHONY : CoroutinesSession.cc.s
+
 DB.o: DB.cc.o
 .PHONY : DB.o
 
@@ -454,6 +502,12 @@ help:
 	@echo "... BattleRoom.o"
 	@echo "... BattleRoom.i"
 	@echo "... BattleRoom.s"
+	@echo "... CoroutinesServer.o"
+	@echo "... CoroutinesServer.i"
+	@echo "... CoroutinesServer.s"
+	@echo "... CoroutinesSession.o"
+	@echo "... CoroutinesSession.i"
+	@echo "... CoroutinesSession.s"
 	@echo "... DB.o"
 	@echo "... DB.i"
 	@echo "... DB.s"

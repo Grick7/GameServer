@@ -251,6 +251,34 @@ src/server/CMakeFiles/MyServerExec.dir/ThreadPool.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MyServerExec.dir/ThreadPool.cc.s"
 	cd /home/grick/mygameserver/GameServer/build/src/server && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/grick/mygameserver/GameServer/src/server/ThreadPool.cc -o CMakeFiles/MyServerExec.dir/ThreadPool.cc.s
 
+src/server/CMakeFiles/MyServerExec.dir/CoroutinesServer.cc.o: src/server/CMakeFiles/MyServerExec.dir/flags.make
+src/server/CMakeFiles/MyServerExec.dir/CoroutinesServer.cc.o: ../src/server/CoroutinesServer.cc
+src/server/CMakeFiles/MyServerExec.dir/CoroutinesServer.cc.o: src/server/CMakeFiles/MyServerExec.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/grick/mygameserver/GameServer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object src/server/CMakeFiles/MyServerExec.dir/CoroutinesServer.cc.o"
+	cd /home/grick/mygameserver/GameServer/build/src/server && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/server/CMakeFiles/MyServerExec.dir/CoroutinesServer.cc.o -MF CMakeFiles/MyServerExec.dir/CoroutinesServer.cc.o.d -o CMakeFiles/MyServerExec.dir/CoroutinesServer.cc.o -c /home/grick/mygameserver/GameServer/src/server/CoroutinesServer.cc
+
+src/server/CMakeFiles/MyServerExec.dir/CoroutinesServer.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MyServerExec.dir/CoroutinesServer.cc.i"
+	cd /home/grick/mygameserver/GameServer/build/src/server && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/grick/mygameserver/GameServer/src/server/CoroutinesServer.cc > CMakeFiles/MyServerExec.dir/CoroutinesServer.cc.i
+
+src/server/CMakeFiles/MyServerExec.dir/CoroutinesServer.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MyServerExec.dir/CoroutinesServer.cc.s"
+	cd /home/grick/mygameserver/GameServer/build/src/server && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/grick/mygameserver/GameServer/src/server/CoroutinesServer.cc -o CMakeFiles/MyServerExec.dir/CoroutinesServer.cc.s
+
+src/server/CMakeFiles/MyServerExec.dir/CoroutinesSession.cc.o: src/server/CMakeFiles/MyServerExec.dir/flags.make
+src/server/CMakeFiles/MyServerExec.dir/CoroutinesSession.cc.o: ../src/server/CoroutinesSession.cc
+src/server/CMakeFiles/MyServerExec.dir/CoroutinesSession.cc.o: src/server/CMakeFiles/MyServerExec.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/grick/mygameserver/GameServer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object src/server/CMakeFiles/MyServerExec.dir/CoroutinesSession.cc.o"
+	cd /home/grick/mygameserver/GameServer/build/src/server && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/server/CMakeFiles/MyServerExec.dir/CoroutinesSession.cc.o -MF CMakeFiles/MyServerExec.dir/CoroutinesSession.cc.o.d -o CMakeFiles/MyServerExec.dir/CoroutinesSession.cc.o -c /home/grick/mygameserver/GameServer/src/server/CoroutinesSession.cc
+
+src/server/CMakeFiles/MyServerExec.dir/CoroutinesSession.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MyServerExec.dir/CoroutinesSession.cc.i"
+	cd /home/grick/mygameserver/GameServer/build/src/server && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/grick/mygameserver/GameServer/src/server/CoroutinesSession.cc > CMakeFiles/MyServerExec.dir/CoroutinesSession.cc.i
+
+src/server/CMakeFiles/MyServerExec.dir/CoroutinesSession.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MyServerExec.dir/CoroutinesSession.cc.s"
+	cd /home/grick/mygameserver/GameServer/build/src/server && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/grick/mygameserver/GameServer/src/server/CoroutinesSession.cc -o CMakeFiles/MyServerExec.dir/CoroutinesSession.cc.s
+
 # Object files for target MyServerExec
 MyServerExec_OBJECTS = \
 "CMakeFiles/MyServerExec.dir/main.cc.o" \
@@ -265,7 +293,9 @@ MyServerExec_OBJECTS = \
 "CMakeFiles/MyServerExec.dir/BattleRoom.cc.o" \
 "CMakeFiles/MyServerExec.dir/RoomManager.cc.o" \
 "CMakeFiles/MyServerExec.dir/UserDatamodel.cc.o" \
-"CMakeFiles/MyServerExec.dir/ThreadPool.cc.o"
+"CMakeFiles/MyServerExec.dir/ThreadPool.cc.o" \
+"CMakeFiles/MyServerExec.dir/CoroutinesServer.cc.o" \
+"CMakeFiles/MyServerExec.dir/CoroutinesSession.cc.o"
 
 # External object files for target MyServerExec
 MyServerExec_EXTERNAL_OBJECTS =
@@ -283,6 +313,8 @@ src/server/MyServerExec: src/server/CMakeFiles/MyServerExec.dir/BattleRoom.cc.o
 src/server/MyServerExec: src/server/CMakeFiles/MyServerExec.dir/RoomManager.cc.o
 src/server/MyServerExec: src/server/CMakeFiles/MyServerExec.dir/UserDatamodel.cc.o
 src/server/MyServerExec: src/server/CMakeFiles/MyServerExec.dir/ThreadPool.cc.o
+src/server/MyServerExec: src/server/CMakeFiles/MyServerExec.dir/CoroutinesServer.cc.o
+src/server/MyServerExec: src/server/CMakeFiles/MyServerExec.dir/CoroutinesSession.cc.o
 src/server/MyServerExec: src/server/CMakeFiles/MyServerExec.dir/build.make
 src/server/MyServerExec: libProtoMessages.a
 src/server/MyServerExec: /usr/lib/x86_64-linux-gnu/libmysqlclient.so
@@ -291,7 +323,7 @@ src/server/MyServerExec: /usr/local/lib/libprotobuf.so
 src/server/MyServerExec: /home/grick/package/vcpkg/vcpkg/installed/x64-linux/debug/lib/librdkafka.a
 src/server/MyServerExec: /home/grick/package/vcpkg/vcpkg/installed/x64-linux/debug/lib/liblz4d.a
 src/server/MyServerExec: src/server/CMakeFiles/MyServerExec.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/grick/mygameserver/GameServer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Linking CXX executable MyServerExec"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/grick/mygameserver/GameServer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Linking CXX executable MyServerExec"
 	cd /home/grick/mygameserver/GameServer/build/src/server && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/MyServerExec.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

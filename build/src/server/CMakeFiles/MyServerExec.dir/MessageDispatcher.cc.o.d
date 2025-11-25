@@ -19,19 +19,24 @@ src/server/CMakeFiles/MyServerExec.dir/MessageDispatcher.cc.o: \
  /usr/include/c++/11/new /usr/include/c++/11/bits/exception.h \
  /usr/include/c++/11/tuple /usr/include/c++/11/utility \
  /usr/include/c++/11/bits/stl_relops.h \
- /usr/include/c++/11/bits/stl_pair.h /usr/include/c++/11/initializer_list \
- /usr/include/c++/11/array /usr/include/c++/11/bits/functexcept.h \
+ /usr/include/c++/11/bits/stl_pair.h /usr/include/c++/11/compare \
+ /usr/include/c++/11/concepts /usr/include/c++/11/initializer_list \
+ /usr/include/c++/11/ext/numeric_traits.h \
+ /usr/include/c++/11/bits/cpp_type_traits.h \
+ /usr/include/c++/11/ext/type_traits.h /usr/include/c++/11/array \
+ /usr/include/c++/11/bits/functexcept.h \
  /usr/include/c++/11/bits/exception_defines.h \
  /usr/include/c++/11/bits/stl_algobase.h \
- /usr/include/c++/11/bits/cpp_type_traits.h \
- /usr/include/c++/11/ext/type_traits.h \
- /usr/include/c++/11/ext/numeric_traits.h \
  /usr/include/c++/11/bits/stl_iterator_base_types.h \
+ /usr/include/c++/11/bits/iterator_concepts.h \
+ /usr/include/c++/11/bits/ptr_traits.h \
+ /usr/include/c++/11/bits/ranges_cmp.h \
  /usr/include/c++/11/bits/stl_iterator_base_funcs.h \
  /usr/include/c++/11/bits/concept_check.h \
  /usr/include/c++/11/debug/assertions.h \
  /usr/include/c++/11/bits/stl_iterator.h \
- /usr/include/c++/11/bits/ptr_traits.h /usr/include/c++/11/debug/debug.h \
+ /usr/include/c++/11/bits/stl_construct.h \
+ /usr/include/c++/11/debug/debug.h \
  /usr/include/c++/11/bits/predefined_ops.h \
  /usr/include/c++/11/bits/range_access.h \
  /usr/include/c++/11/bits/uses_allocator.h \
@@ -45,7 +50,6 @@ src/server/CMakeFiles/MyServerExec.dir/MessageDispatcher.cc.o: \
  /usr/include/c++/11/bits/memoryfwd.h \
  /usr/include/c++/11/ext/alloc_traits.h \
  /usr/include/c++/11/bits/alloc_traits.h \
- /usr/include/c++/11/bits/stl_construct.h \
  /usr/include/c++/11/ext/aligned_buffer.h \
  /usr/include/c++/11/bits/hashtable.h \
  /usr/include/c++/11/bits/hashtable_policy.h \
@@ -53,11 +57,8 @@ src/server/CMakeFiles/MyServerExec.dir/MessageDispatcher.cc.o: \
  /usr/include/c++/11/bits/node_handle.h \
  /usr/include/c++/11/bits/unordered_map.h \
  /usr/include/c++/11/bits/erase_if.h /usr/include/c++/11/vector \
- /usr/include/c++/11/bits/stl_uninitialized.h \
- /usr/include/c++/11/bits/stl_vector.h \
- /usr/include/c++/11/bits/stl_bvector.h \
- /usr/include/c++/11/bits/vector.tcc /usr/include/c++/11/bits/stl_algo.h \
- /usr/include/c++/11/cstdlib /usr/include/stdlib.h \
+ /usr/include/c++/11/bits/stl_algo.h /usr/include/c++/11/cstdlib \
+ /usr/include/stdlib.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h \
  /usr/include/x86_64-linux-gnu/bits/waitflags.h \
@@ -96,7 +97,11 @@ src/server/CMakeFiles/MyServerExec.dir/MessageDispatcher.cc.o: \
  /usr/include/c++/11/bits/algorithmfwd.h \
  /usr/include/c++/11/bits/stl_heap.h \
  /usr/include/c++/11/bits/stl_tempbuf.h \
- /usr/include/c++/11/bits/uniform_int_dist.h /usr/include/c++/11/string \
+ /usr/include/c++/11/bits/uniform_int_dist.h \
+ /usr/include/c++/11/bits/stl_uninitialized.h \
+ /usr/include/c++/11/bits/stl_vector.h \
+ /usr/include/c++/11/bits/stl_bvector.h \
+ /usr/include/c++/11/bits/vector.tcc /usr/include/c++/11/string \
  /usr/include/c++/11/bits/stringfwd.h \
  /usr/include/c++/11/bits/char_traits.h \
  /usr/include/c++/11/bits/postypes.h /usr/include/c++/11/cwchar \
@@ -134,7 +139,9 @@ src/server/CMakeFiles/MyServerExec.dir/MessageDispatcher.cc.o: \
  /usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/atomic_word.h \
  /usr/include/x86_64-linux-gnu/sys/single_threaded.h \
- /usr/include/c++/11/string_view /usr/include/c++/11/bits/string_view.tcc \
+ /usr/include/c++/11/string_view /usr/include/c++/11/bits/ranges_base.h \
+ /usr/include/c++/11/bits/max_size_type.h /usr/include/c++/11/numbers \
+ /usr/include/c++/11/bits/string_view.tcc \
  /usr/include/c++/11/ext/string_conversions.h /usr/include/c++/11/cstdio \
  /usr/include/stdio.h /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h \
@@ -204,7 +211,25 @@ src/server/CMakeFiles/MyServerExec.dir/MessageDispatcher.cc.o: \
  /usr/include/c++/11/bits/shared_ptr_atomic.h \
  /usr/include/c++/11/bits/atomic_base.h \
  /usr/include/c++/11/bits/atomic_lockfree_defines.h \
+ /usr/include/c++/11/bits/atomic_wait.h /usr/include/c++/11/climits \
+ /usr/lib/gcc/x86_64-linux-gnu/11/include/limits.h \
+ /usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h \
+ /usr/include/limits.h /usr/include/x86_64-linux-gnu/bits/posix1_lim.h \
+ /usr/include/x86_64-linux-gnu/bits/local_lim.h \
+ /usr/include/linux/limits.h \
+ /usr/include/x86_64-linux-gnu/bits/posix2_lim.h \
+ /usr/include/x86_64-linux-gnu/bits/xopen_lim.h \
+ /usr/include/x86_64-linux-gnu/bits/uio_lim.h /usr/include/syscall.h \
+ /usr/include/x86_64-linux-gnu/sys/syscall.h \
+ /usr/include/x86_64-linux-gnu/asm/unistd.h \
+ /usr/include/x86_64-linux-gnu/asm/unistd_64.h \
+ /usr/include/x86_64-linux-gnu/bits/syscall.h \
+ /usr/include/c++/11/bits/std_mutex.h \
  /usr/include/c++/11/backward/auto_ptr.h \
+ /usr/include/c++/11/bits/ranges_uninitialized.h \
+ /usr/include/c++/11/bits/ranges_algobase.h /usr/include/c++/11/iterator \
+ /usr/include/c++/11/bits/stream_iterator.h \
+ /usr/include/c++/11/bits/uses_allocator_args.h \
  /usr/include/c++/11/pstl/glue_memory_defs.h \
  /usr/include/c++/11/pstl/execution_defs.h \
  /usr/include/boost/asio/detail/type_traits.hpp \
@@ -264,15 +289,6 @@ src/server/CMakeFiles/MyServerExec.dir/MessageDispatcher.cc.o: \
  /usr/include/boost/asio/detail/noncopyable.hpp \
  /usr/include/boost/asio/detail/recycling_allocator.hpp \
  /usr/include/boost/asio/detail/thread_context.hpp \
- /usr/include/c++/11/climits \
- /usr/lib/gcc/x86_64-linux-gnu/11/include/limits.h \
- /usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h \
- /usr/include/limits.h /usr/include/x86_64-linux-gnu/bits/posix1_lim.h \
- /usr/include/x86_64-linux-gnu/bits/local_lim.h \
- /usr/include/linux/limits.h \
- /usr/include/x86_64-linux-gnu/bits/posix2_lim.h \
- /usr/include/x86_64-linux-gnu/bits/xopen_lim.h \
- /usr/include/x86_64-linux-gnu/bits/uio_lim.h \
  /usr/include/boost/asio/detail/call_stack.hpp \
  /usr/include/boost/asio/detail/tss_ptr.hpp \
  /usr/include/boost/asio/detail/keyword_tss_ptr.hpp \
@@ -321,7 +337,6 @@ src/server/CMakeFiles/MyServerExec.dir/MessageDispatcher.cc.o: \
  /usr/include/c++/11/chrono /usr/include/c++/11/ratio \
  /usr/include/c++/11/limits /usr/include/c++/11/ctime \
  /usr/include/c++/11/bits/parse_numbers.h \
- /usr/include/c++/11/bits/std_mutex.h \
  /usr/include/c++/11/bits/unique_lock.h \
  /usr/include/boost/asio/detail/impl/throw_error.ipp \
  /usr/include/boost/system/system_error.hpp /usr/include/c++/11/cassert \
@@ -473,10 +488,15 @@ src/server/CMakeFiles/MyServerExec.dir/MessageDispatcher.cc.o: \
  /usr/include/boost/asio/detail/thread_group.hpp \
  /usr/include/boost/asio/impl/system_context.hpp \
  /usr/include/boost/asio/impl/system_context.ipp \
- /usr/include/boost/asio/awaitable.hpp \
+ /usr/include/boost/asio/awaitable.hpp /usr/include/c++/11/coroutine \
+ /usr/include/boost/asio/any_io_executor.hpp \
+ /usr/include/boost/asio/impl/awaitable.hpp \
+ /usr/include/boost/asio/post.hpp /usr/include/boost/asio/impl/post.hpp \
+ /usr/include/boost/asio/detail/work_dispatcher.hpp \
+ /usr/include/boost/asio/executor_work_guard.hpp \
+ /usr/include/boost/asio/this_coro.hpp \
  /usr/include/boost/asio/basic_datagram_socket.hpp \
  /usr/include/boost/asio/basic_socket.hpp \
- /usr/include/boost/asio/any_io_executor.hpp \
  /usr/include/boost/asio/detail/io_object_impl.hpp \
  /usr/include/boost/asio/io_context.hpp \
  /usr/include/boost/asio/detail/wrapped_handler.hpp \
@@ -487,10 +507,7 @@ src/server/CMakeFiles/MyServerExec.dir/MessageDispatcher.cc.o: \
  /usr/include/boost/asio/impl/io_context.hpp \
  /usr/include/boost/asio/detail/completion_handler.hpp \
  /usr/include/boost/asio/detail/handler_work.hpp \
- /usr/include/boost/asio/executor_work_guard.hpp \
  /usr/include/boost/asio/impl/io_context.ipp \
- /usr/include/boost/asio/post.hpp /usr/include/boost/asio/impl/post.hpp \
- /usr/include/boost/asio/detail/work_dispatcher.hpp \
  /usr/include/boost/asio/socket_base.hpp \
  /usr/include/boost/asio/detail/io_control.hpp \
  /usr/include/boost/asio/detail/socket_option.hpp \
@@ -552,7 +569,8 @@ src/server/CMakeFiles/MyServerExec.dir/MessageDispatcher.cc.o: \
  /usr/include/boost/smart_ptr/detail/sp_thread_pause.hpp \
  /usr/include/boost/smart_ptr/detail/sp_thread_sleep.hpp \
  /usr/include/boost/config/pragma_message.hpp \
- /usr/include/c++/11/algorithm \
+ /usr/include/c++/11/algorithm /usr/include/c++/11/bits/ranges_algo.h \
+ /usr/include/c++/11/bits/ranges_util.h \
  /usr/include/c++/11/pstl/glue_algorithm_defs.h \
  /usr/include/boost/smart_ptr/detail/operator_bool.hpp \
  /usr/include/boost/smart_ptr/detail/local_sp_deleter.hpp \
@@ -587,9 +605,7 @@ src/server/CMakeFiles/MyServerExec.dir/MessageDispatcher.cc.o: \
  /usr/include/boost/core/enable_if.hpp \
  /usr/include/boost/date_time/special_defs.hpp \
  /usr/include/boost/date_time/time_defs.hpp \
- /usr/include/boost/operators.hpp /usr/include/c++/11/iterator \
- /usr/include/c++/11/bits/stream_iterator.h \
- /usr/include/boost/static_assert.hpp \
+ /usr/include/boost/operators.hpp /usr/include/boost/static_assert.hpp \
  /usr/include/boost/type_traits/is_integral.hpp \
  /usr/include/boost/type_traits/integral_constant.hpp \
  /usr/include/boost/date_time/time_resolution_traits.hpp \
@@ -848,7 +864,13 @@ src/server/CMakeFiles/MyServerExec.dir/MessageDispatcher.cc.o: \
  /usr/include/boost/asio/detail/dependent_type.hpp \
  /usr/include/boost/asio/impl/buffered_write_stream.hpp \
  /usr/include/boost/asio/buffers_iterator.hpp \
- /usr/include/boost/asio/co_spawn.hpp /usr/include/boost/asio/compose.hpp \
+ /usr/include/boost/asio/co_spawn.hpp \
+ /usr/include/boost/asio/impl/co_spawn.hpp \
+ /usr/include/boost/asio/dispatch.hpp \
+ /usr/include/boost/asio/impl/dispatch.hpp \
+ /usr/include/boost/asio/use_awaitable.hpp \
+ /usr/include/boost/asio/impl/use_awaitable.hpp \
+ /usr/include/boost/asio/compose.hpp \
  /usr/include/boost/asio/impl/compose.hpp \
  /usr/include/boost/asio/connect.hpp \
  /usr/include/boost/asio/impl/connect.hpp \
@@ -857,8 +879,6 @@ src/server/CMakeFiles/MyServerExec.dir/MessageDispatcher.cc.o: \
  /usr/include/boost/asio/defer.hpp /usr/include/boost/asio/impl/defer.hpp \
  /usr/include/boost/asio/detached.hpp \
  /usr/include/boost/asio/impl/detached.hpp \
- /usr/include/boost/asio/dispatch.hpp \
- /usr/include/boost/asio/impl/dispatch.hpp \
  /usr/include/boost/asio/executor.hpp \
  /usr/include/boost/asio/impl/executor.hpp \
  /usr/include/boost/asio/impl/executor.ipp \
@@ -933,9 +953,13 @@ src/server/CMakeFiles/MyServerExec.dir/MessageDispatcher.cc.o: \
  /usr/include/boost/asio/local/stream_protocol.hpp \
  /usr/include/boost/asio/packaged_task.hpp \
  /usr/include/boost/asio/detail/future.hpp /usr/include/c++/11/future \
- /usr/include/c++/11/condition_variable \
+ /usr/include/c++/11/condition_variable /usr/include/c++/11/stop_token \
+ /usr/include/c++/11/bits/std_thread.h /usr/include/c++/11/semaphore \
+ /usr/include/c++/11/bits/semaphore_base.h \
+ /usr/include/c++/11/bits/atomic_timed_wait.h \
+ /usr/include/c++/11/bits/this_thread_sleep.h /usr/include/semaphore.h \
+ /usr/include/x86_64-linux-gnu/bits/semaphore.h \
  /usr/include/c++/11/bits/atomic_futex.h \
- /usr/include/c++/11/bits/std_thread.h \
  /usr/include/boost/asio/placeholders.hpp /usr/include/boost/bind/arg.hpp \
  /usr/include/boost/is_placeholder.hpp \
  /usr/include/boost/asio/posix/basic_descriptor.hpp \
@@ -1100,8 +1124,6 @@ src/server/CMakeFiles/MyServerExec.dir/MessageDispatcher.cc.o: \
  /usr/include/boost/asio/detail/impl/strand_executor_service.ipp \
  /usr/include/boost/asio/streambuf.hpp \
  /usr/include/boost/asio/system_timer.hpp \
- /usr/include/boost/asio/this_coro.hpp \
- /usr/include/boost/asio/use_awaitable.hpp \
  /usr/include/boost/asio/use_future.hpp \
  /usr/include/boost/asio/impl/use_future.hpp \
  /usr/include/boost/asio/version.hpp \
@@ -1119,7 +1141,7 @@ src/server/CMakeFiles/MyServerExec.dir/MessageDispatcher.cc.o: \
  /usr/include/c++/11/bits/stl_deque.h /usr/include/c++/11/bits/deque.tcc \
  /home/grick/mygameserver/GameServer/include/server/ThreadPool.h \
  /usr/include/c++/11/queue /usr/include/c++/11/bits/stl_queue.h \
- /usr/include/c++/11/thread /usr/include/c++/11/bits/this_thread_sleep.h \
+ /usr/include/c++/11/thread \
  /home/grick/mygameserver/GameServer/build/protocol.pb.h \
  /usr/local/include/google/protobuf/port_def.inc \
  /usr/local/include/google/protobuf/port_undef.inc \
@@ -1179,9 +1201,9 @@ src/server/CMakeFiles/MyServerExec.dir/MessageDispatcher.cc.o: \
  /usr/include/mysql/field_types.h /usr/include/mysql/my_list.h \
  /usr/include/mysql/mysql_com.h /usr/include/mysql/my_command.h \
  /usr/include/mysql/my_compress.h \
- /usr/include/mysql/mysql/udf_registration_types.h \
- /usr/include/mysql/mysql/client_plugin.h \
- /usr/include/mysql/mysql/plugin_auth_common.h \
+ /usr/include/mysql/udf_registration_types.h \
+ /usr/include/mysql/client_plugin.h \
+ /usr/include/mysql/plugin_auth_common.h \
  /usr/include/mysql/mysql_version.h /usr/include/mysql/mysql_time.h \
  /usr/include/mysql/errmsg.h \
  /home/grick/mygameserver/GameServer/include/server/GameUser.h \

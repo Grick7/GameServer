@@ -15,7 +15,8 @@ set(SERVER_SOURCES
     RoomManager.cc
     UserDatamodel.cc
     ThreadPool.cc
-
+    CoroutinesServer.cc
+    CoroutinesSession.cc
 )
 
 # 1. 创建可执行目标，只包含手动编写的源文件

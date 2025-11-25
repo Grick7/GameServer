@@ -9,6 +9,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/grick/mygameserver/GameServer/src/server/BattleRoom.cc" "src/server/CMakeFiles/MyServerExec.dir/BattleRoom.cc.o" "gcc" "src/server/CMakeFiles/MyServerExec.dir/BattleRoom.cc.o.d"
+  "/home/grick/mygameserver/GameServer/src/server/CoroutinesServer.cc" "src/server/CMakeFiles/MyServerExec.dir/CoroutinesServer.cc.o" "gcc" "src/server/CMakeFiles/MyServerExec.dir/CoroutinesServer.cc.o.d"
+  "/home/grick/mygameserver/GameServer/src/server/CoroutinesSession.cc" "src/server/CMakeFiles/MyServerExec.dir/CoroutinesSession.cc.o" "gcc" "src/server/CMakeFiles/MyServerExec.dir/CoroutinesSession.cc.o.d"
   "/home/grick/mygameserver/GameServer/src/server/DB.cc" "src/server/CMakeFiles/MyServerExec.dir/DB.cc.o" "gcc" "src/server/CMakeFiles/MyServerExec.dir/DB.cc.o.d"
   "/home/grick/mygameserver/GameServer/src/server/GameServer.cc" "src/server/CMakeFiles/MyServerExec.dir/GameServer.cc.o" "gcc" "src/server/CMakeFiles/MyServerExec.dir/GameServer.cc.o.d"
   "/home/grick/mygameserver/GameServer/src/server/MessageDispatcher.cc" "src/server/CMakeFiles/MyServerExec.dir/MessageDispatcher.cc.o" "gcc" "src/server/CMakeFiles/MyServerExec.dir/MessageDispatcher.cc.o.d"

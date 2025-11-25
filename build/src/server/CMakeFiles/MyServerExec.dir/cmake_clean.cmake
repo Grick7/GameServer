@@ -1,6 +1,10 @@
 file(REMOVE_RECURSE
   "CMakeFiles/MyServerExec.dir/BattleRoom.cc.o"
   "CMakeFiles/MyServerExec.dir/BattleRoom.cc.o.d"
+  "CMakeFiles/MyServerExec.dir/CoroutinesServer.cc.o"
+  "CMakeFiles/MyServerExec.dir/CoroutinesServer.cc.o.d"
+  "CMakeFiles/MyServerExec.dir/CoroutinesSession.cc.o"
+  "CMakeFiles/MyServerExec.dir/CoroutinesSession.cc.o.d"
   "CMakeFiles/MyServerExec.dir/DB.cc.o"
   "CMakeFiles/MyServerExec.dir/DB.cc.o.d"
   "CMakeFiles/MyServerExec.dir/GameServer.cc.o"

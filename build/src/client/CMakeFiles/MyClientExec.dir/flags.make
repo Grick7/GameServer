@@ -6,5 +6,5 @@ CXX_DEFINES = -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_SYSTEM_DYN_LINK
 
 CXX_INCLUDES = -I/home/grick/mygameserver/GameServer/include/server -I/home/grick/mygameserver/GameServer/include -I/home/grick/mygameserver/GameServer/include/client -I/home/grick/mygameserver/GameServer/build
 
-CXX_FLAGS = -std=gnu++17
+CXX_FLAGS = -std=gnu++20
 

@@ -57,7 +57,7 @@ int main()
                 // 消费循环
                 while (true)
                 {
-                    cppkafka::Message msg = consumer.poll();
+                    cppkafka::Message msg = consumer.poll();//从所分配到的队列中获取一条消息
                     if (!msg) continue; // 无消息则继续
                     if (msg.get_error())
                     {
